@@ -1,0 +1,713 @@
+anim:sheet_in:2130771968 reachable from style:SheetAnimation:2131361818
+anim:sheet_out:2130771969 reachable from style:SheetAnimation:2131361818
+bool:light_bars:2130837504 reachable from style:Theme_Libremote:2131361819
+color:accent:2130903040 reachable from style:Theme_Libremote_Dialog:2131361820
+color:accent_container:2130903041 reachable from res/drawable/bg_button_tonal.xml
+color:bg:2130903042 reachable from style:Theme_Libremote:2131361819
+color:brand:2130903043 reachable from res/mipmap-anydpi-v21/ic_launcher.xml
+color:error:2130903044 reachable from from dex
+color:ok:2130903045 reachable from int com.uniremote.R$color.ok
+color:on_accent:2130903046 reachable from style:Libremote_Button:2131361794
+color:on_accent_container:2130903047 reachable from res/layout/activity_devices.xml
+color:on_surface:2130903048 reachable from style:Theme_Libremote:2131361819
+color:on_surface_muted:2130903049 reachable from style:Theme_Libremote:2131361819
+color:ripple:2130903050 reachable from res/drawable/bg_borderless.xml
+color:surface:2130903052 reachable from res/drawable/bg_dialog.xml
+color:surface_high:2130903053 reachable from res/drawable/bg_hud.xml
+color:warn:2130903054 reachable from from dex
+drawable:bg_banner:2130968576 reachable from res/layout/remote_banner.xml
+drawable:bg_borderless:2130968577 reachable from style:Libremote_Icon:2131361801
+drawable:bg_button:2130968578 reachable from style:Libremote_Button:2131361794
+drawable:bg_button_tonal:2130968579 reachable from style:Libremote_Button_Tonal:2131361796
+drawable:bg_card:2130968580 reachable from res/layout/item_tv.xml
+drawable:bg_code_box:2130968581 reachable from style:Libremote_CodeBox:2131361797
+drawable:bg_dialog:2130968582 reachable from style:Theme_Libremote_Dialog:2131361820
+drawable:bg_dot:2130968583 reachable from res/layout/remote_top_bar.xml
+drawable:bg_field:2130968584 reachable from res/layout/remote_keyboard_bar.xml
+drawable:bg_hud:2130968585 reachable from res/layout/remote_volume_hud.xml
+drawable:bg_list_row:2130968586 reachable from from dex
+drawable:bg_pill:2130968587 reachable from style:Libremote_KeyRow:2131361803
+drawable:bg_pill_button:2130968588 reachable from style:Libremote_ExtraKey:2131361800
+drawable:bg_preview:2130968589 reachable from res/layout/activity_shortcuts.xml
+drawable:bg_round:2130968590 reachable from style:Libremote_Round:2131361807
+drawable:bg_round_accent:2130968591 reachable from res/layout/remote_top_bar.xml
+drawable:bg_segment:2130968592 reachable from res/layout/remote_mode_toggle.xml
+drawable:bg_segment_item:2130968593 reachable from style:Libremote_ModeSegment:2131361805
+drawable:bg_segment_selected:2130968594 reachable from from dex
+drawable:bg_sheet:2130968595 reachable from from dex
+drawable:bg_text_button:2130968596 reachable from res/layout/remote_top_bar.xml
+drawable:ic_add:2130968597 reachable from res/layout/activity_devices.xml
+drawable:ic_apps:2130968598 reachable from res/layout/remote_pad.xml
+drawable:ic_arrow_back:2130968599 reachable from res/layout/remote_nav_row.xml
+drawable:ic_arrow_range:2130968600 reachable from from dex
+drawable:ic_backspace:2130968601 reachable from res/layout/remote_keyboard_bar.xml
+drawable:ic_bug_report:2130968602 reachable from res/layout/activity_settings.xml
+drawable:ic_channels:2130968603 reachable from from dex
+drawable:ic_check:2130968604 reachable from from dex
+drawable:ic_chevron_right:2130968605 reachable from res/layout/item_tv.xml
+drawable:ic_close:2130968606 reachable from from dex
+drawable:ic_closed_caption:2130968607 reachable from res/layout/remote_pad.xml
+drawable:ic_delete:2130968608 reachable from from dex
+drawable:ic_drag_indicator:2130968609 reachable from from dex
+drawable:ic_edit:2130968610 reachable from from dex
+drawable:ic_expand_more:2130968611 reachable from res/layout/remote_top_bar.xml
+drawable:ic_fast_forward:2130968612 reachable from res/layout/remote_media_row.xml
+drawable:ic_fast_rewind:2130968613 reachable from res/layout/remote_media_row.xml
+drawable:ic_gamepad:2130968614 reachable from res/layout/remote_mode_toggle.xml
+drawable:ic_home:2130968615 reachable from res/layout/remote_nav_row.xml
+drawable:ic_info:2130968616 reachable from res/layout/remote_pad.xml
+drawable:ic_info_small:2130968617 reachable from from dex
+drawable:ic_input:2130968618 reachable from res/layout/remote_pad.xml
+drawable:ic_keyboard:2130968619 reachable from res/layout/remote_nav_row.xml
+drawable:ic_keyboard_hide:2130968620 reachable from res/layout/remote_keyboard_bar.xml
+drawable:ic_keyboard_return:2130968621 reachable from res/layout/remote_keyboard_bar.xml
+drawable:ic_launcher_foreground:2130968622 reachable from res/mipmap-anydpi-v21/ic_launcher.xml
+drawable:ic_live_tv:2130968624 reachable from res/layout/remote_pad.xml
+drawable:ic_menu:2130968625 reachable from res/layout/remote_pad.xml
+drawable:ic_menu_book:2130968626 reachable from res/layout/activity_settings.xml
+drawable:ic_more_vert:2130968627 reachable from res/layout/item_tv.xml
+drawable:ic_play_pause:2130968628 reachable from res/layout/remote_media_row.xml
+drawable:ic_power_settings_new:2130968629 reachable from res/layout/remote_top_bar.xml
+drawable:ic_remote:2130968631 reachable from res/layout/remote_mode_toggle.xml
+drawable:ic_remove:2130968632 reachable from res/layout/remote_pad.xml
+drawable:ic_restart_alt:2130968633 reachable from res/layout/activity_shortcuts.xml
+drawable:ic_search:2130968634 reachable from res/layout/remote_pad.xml
+drawable:ic_settings:2130968635 reachable from res/layout/activity_devices.xml
+drawable:ic_settings_remote:2130968636 reachable from res/layout/activity_devices.xml
+drawable:ic_skip_next:2130968637 reachable from res/layout/remote_media_row.xml
+drawable:ic_skip_previous:2130968638 reachable from res/layout/remote_media_row.xml
+drawable:ic_swipe:2130968639 reachable from res/layout/remote_mode_toggle.xml
+drawable:ic_sync:2130968640 reachable from res/layout/activity_shortcuts.xml
+drawable:ic_tv:2130968641 reachable from res/layout/item_tv.xml
+drawable:ic_tv_settings:2130968642 reachable from res/layout/remote_pad.xml
+drawable:ic_update:2130968643 reachable from from dex
+drawable:ic_upload:2130968644 reachable from from dex
+drawable:ic_upload_file:2130968645 reachable from res/layout/remote_top_bar.xml
+drawable:ic_volume_down:2130968646 reachable from res/layout/remote_pad.xml
+drawable:ic_volume_off:2130968647 reachable from res/layout/remote_pad.xml
+drawable:ic_volume_up:2130968648 reachable from res/layout/remote_pad.xml
+drawable:ic_youtube:2130968650 reachable from res/layout/remote_nav_row.xml
+drawable:progress_volume:2130968651 reachable from res/layout/remote_volume_hud.xml
+id:addByAddress:2131034112 reachable from res/layout/activity_devices.xml
+id:addRow:2131034113 reachable from res/layout/activity_shortcuts.xml
+id:appsScroll:2131034114 reachable from res/layout/activity_remote.xml
+id:autoCheck:2131034115 reachable from res/layout/activity_settings.xml
+id:autoKeyboard:2131034116 reachable from res/layout/activity_settings.xml
+id:back:2131034117 reachable from res/layout/remote_nav_row.xml
+id:banner:2131034118 reachable from res/layout/remote_banner.xml
+id:bannerAction:2131034119 reachable from res/layout/remote_banner.xml
+id:bannerCountdown:2131034120 reachable from res/layout/remote_banner.xml
+id:bannerText:2131034121 reachable from res/layout/remote_banner.xml
+id:bannerTitle:2131034122 reachable from res/layout/remote_banner.xml
+id:btnPlaylist:2131034123 reachable from res/layout/remote_nav_row.xml
+id:btnYoutube:2131034124 reachable from res/layout/remote_nav_row.xml
+id:checkNow:2131034125 reachable from res/layout/activity_settings.xml
+id:checkNowSummary:2131034126 reachable from res/layout/activity_settings.xml
+id:close:2131034127 reachable from res/layout/activity_settings.xml
+id:codeArea:2131034128 reachable from res/layout/dialog_pair.xml
+id:codeBoxes:2131034129 reachable from res/layout/dialog_pair.xml
+id:codeInput:2131034130 reachable from res/layout/dialog_pair.xml
+id:dpad:2131034131 reachable from res/layout/remote_pad.xml
+id:empty:2131034132 reachable from res/layout/activity_devices.xml
+id:extraApps:2131034133 reachable from res/layout/remote_pad.xml
+id:extraCaptions:2131034134 reachable from res/layout/remote_pad.xml
+id:extraGuide:2131034135 reachable from res/layout/remote_pad.xml
+id:extraInfo:2131034136 reachable from res/layout/remote_pad.xml
+id:extraInput:2131034137 reachable from res/layout/remote_pad.xml
+id:extraKeys:2131034138 reachable from res/layout/remote_pad.xml
+id:extraSearch:2131034139 reachable from res/layout/remote_pad.xml
+id:extraSettings:2131034140 reachable from res/layout/remote_pad.xml
+id:fastForward:2131034141 reachable from res/layout/remote_media_row.xml
+id:frameBack:2131034142 reachable from res/layout/remote_nav_row.xml
+id:frameHome:2131034143 reachable from res/layout/remote_nav_row.xml
+id:frameKeyboard:2131034144 reachable from res/layout/remote_nav_row.xml
+id:framePlaylist:2131034145 reachable from res/layout/remote_nav_row.xml
+id:frameYoutube:2131034146 reachable from res/layout/remote_nav_row.xml
+id:guide:2131034147 reachable from res/layout/activity_remote_guide.xml
+id:haptics:2131034148 reachable from res/layout/activity_settings.xml
+id:hidden:2131034149 reachable from res/layout/activity_shortcuts.xml
+id:hiddenTitle:2131034150 reachable from res/layout/activity_shortcuts.xml
+id:home:2131034151 reachable from res/layout/remote_nav_row.xml
+id:input:2131034152 reachable from res/layout/dialog_text_input.xml
+id:inputError:2131034153 reachable from res/layout/dialog_text_input.xml
+id:inputMessage:2131034154 reachable from res/layout/dialog_text_input.xml
+id:keepScreenOn:2131034155 reachable from res/layout/activity_settings.xml
+id:keyBottom:2131034156 reachable from res/layout/remote_pad.xml
+id:keyColumn:2131034157 reachable from res/layout/remote_pad.xml
+id:keyMenu:2131034158 reachable from res/layout/remote_pad.xml
+id:keyTop:2131034159 reachable from res/layout/remote_pad.xml
+id:keyboard:2131034160 reachable from res/layout/remote_nav_row.xml
+id:keyboardBar:2131034161 reachable from res/layout/remote_keyboard_bar.xml
+id:mediaRow:2131034162 reachable from res/layout/remote_media_row.xml
+id:modeDpad:2131034163 reachable from res/layout/remote_mode_toggle.xml
+id:modeFull:2131034164 reachable from res/layout/remote_mode_toggle.xml
+id:modeSimple:2131034165 reachable from res/layout/remote_mode_toggle.xml
+id:modeToggle:2131034166 reachable from res/layout/remote_mode_toggle.xml
+id:modeTouch:2131034167 reachable from res/layout/remote_mode_toggle.xml
+id:mute:2131034168 reachable from res/layout/remote_pad.xml
+id:navRow:2131034169 reachable from res/layout/remote_nav_row.xml
+id:nearby:2131034170 reachable from res/layout/activity_devices.xml
+id:next:2131034171 reachable from res/layout/remote_media_row.xml
+id:others:2131034172 reachable from res/layout/activity_shortcuts.xml
+id:othersTitle:2131034173 reachable from res/layout/activity_shortcuts.xml
+id:pad:2131034174 reachable from res/layout/remote_pad.xml
+id:padArea:2131034175 reachable from res/layout/activity_remote.xml
+id:pairAction:2131034176 reachable from res/layout/dialog_pair.xml
+id:pairCancel:2131034177 reachable from res/layout/dialog_pair.xml
+id:pairError:2131034178 reachable from res/layout/dialog_pair.xml
+id:pairMessage:2131034179 reachable from res/layout/dialog_pair.xml
+id:pairProgress:2131034180 reachable from res/layout/dialog_pair.xml
+id:pairTitle:2131034181 reachable from res/layout/dialog_pair.xml
+id:perTv:2131034182 reachable from res/layout/activity_shortcuts.xml
+id:pinned:2131034183 reachable from res/layout/activity_shortcuts.xml
+id:pinnedTitle:2131034184 reachable from res/layout/activity_shortcuts.xml
+id:playPause:2131034185 reachable from res/layout/remote_media_row.xml
+id:power:2131034186 reachable from res/layout/remote_top_bar.xml
+id:preview:2131034187 reachable from res/layout/activity_shortcuts.xml
+id:previous:2131034188 reachable from res/layout/remote_media_row.xml
+id:privacy:2131034189 reachable from res/layout/activity_settings.xml
+id:receiverUpdates:2131034190 reachable from res/layout/activity_settings.xml
+id:report:2131034191 reachable from res/layout/activity_settings.xml
+id:reset:2131034192 reachable from res/layout/activity_shortcuts.xml
+id:rewind:2131034193 reachable from res/layout/remote_media_row.xml
+id:root:2131034194 reachable from res/layout/activity_devices.xml
+id:rows:2131034195 reachable from res/layout/activity_shortcuts.xml
+id:saved:2131034196 reachable from res/layout/activity_devices.xml
+id:savedHeader:2131034197 reachable from res/layout/activity_devices.xml
+id:searchBottom:2131034198 reachable from res/layout/remote_volume_row.xml
+id:searching:2131034199 reachable from res/layout/activity_devices.xml
+id:searchingText:2131034200 reachable from res/layout/activity_devices.xml
+id:sendFiles:2131034201 reachable from res/layout/remote_top_bar.xml
+id:sendPrimary:2131034202 reachable from res/layout/activity_send.xml
+id:sendProgress:2131034203 reachable from res/layout/activity_send.xml
+id:sendSecondary:2131034204 reachable from res/layout/activity_send.xml
+id:sendStatus:2131034205 reachable from res/layout/activity_send.xml
+id:sendText:2131034206 reachable from res/layout/activity_send.xml
+id:sendTitle:2131034207 reachable from res/layout/activity_send.xml
+id:settings:2131034208 reachable from res/layout/activity_devices.xml
+id:shortcut_action_hide:2131034209 reachable from from dex
+id:shortcut_action_move_down:2131034210 reachable from from dex
+id:shortcut_action_move_up:2131034211 reachable from from dex
+id:shortcut_action_pin:2131034212 reachable from from dex
+id:shortcut_action_rename:2131034213 reachable from from dex
+id:shortcuts:2131034214 reachable from res/layout/activity_settings.xml
+id:sizes:2131034215 reachable from res/layout/activity_shortcuts.xml
+id:status:2131034216 reachable from res/layout/remote_top_bar.xml
+id:statusDot:2131034217 reachable from res/layout/remote_top_bar.xml
+id:strip:2131034218 reachable from res/layout/remote_pad.xml
+id:styles:2131034219 reachable from res/layout/activity_shortcuts.xml
+id:sync:2131034220 reachable from res/layout/activity_shortcuts.xml
+id:syncText:2131034221 reachable from res/layout/activity_shortcuts.xml
+id:text:2131034222 reachable from res/layout/remote_keyboard_bar.xml
+id:textClear:2131034223 reachable from res/layout/remote_keyboard_bar.xml
+id:textHide:2131034224 reachable from res/layout/remote_keyboard_bar.xml
+id:textSend:2131034225 reachable from res/layout/remote_keyboard_bar.xml
+id:touchpad:2131034226 reachable from res/layout/remote_pad.xml
+id:tvChevron:2131034227 reachable from res/layout/item_tv.xml
+id:tvChooser:2131034228 reachable from res/layout/activity_shortcuts.xml
+id:tvMore:2131034229 reachable from res/layout/item_tv.xml
+id:tvName:2131034230 reachable from res/layout/remote_top_bar.xml
+id:tvOnline:2131034231 reachable from res/layout/item_tv.xml
+id:tvSubtitle:2131034232 reachable from res/layout/item_tv.xml
+id:tvSwitcher:2131034233 reachable from res/layout/remote_top_bar.xml
+id:tvTitle:2131034234 reachable from res/layout/item_tv.xml
+id:tvs:2131034235 reachable from res/layout/activity_settings.xml
+id:updatePrimary:2131034236 reachable from res/layout/dialog_update.xml
+id:updateProgress:2131034237 reachable from res/layout/dialog_update.xml
+id:updateSecondary:2131034238 reachable from res/layout/dialog_update.xml
+id:updateStatus:2131034239 reachable from res/layout/dialog_update.xml
+id:updateText:2131034240 reachable from res/layout/dialog_update.xml
+id:updateTitle:2131034241 reachable from res/layout/dialog_update.xml
+id:updates:2131034242 reachable from res/layout/activity_settings.xml
+id:version:2131034243 reachable from res/layout/activity_settings.xml
+id:volDownBottom:2131034244 reachable from res/layout/remote_volume_row.xml
+id:volMuteBottom:2131034245 reachable from res/layout/remote_volume_row.xml
+id:volUpBottom:2131034246 reachable from res/layout/remote_volume_row.xml
+id:volumeBar:2131034247 reachable from res/layout/remote_volume_hud.xml
+id:volumeColumn:2131034248 reachable from res/layout/remote_pad.xml
+id:volumeDown:2131034249 reachable from res/layout/remote_pad.xml
+id:volumeHud:2131034250 reachable from res/layout/remote_volume_hud.xml
+id:volumeIcon:2131034251 reachable from res/layout/remote_volume_hud.xml
+id:volumeKeys:2131034252 reachable from res/layout/activity_settings.xml
+id:volumeRowBottom:2131034253 reachable from res/layout/remote_volume_row.xml
+id:volumeText:2131034254 reachable from res/layout/remote_volume_hud.xml
+id:volumeUp:2131034255 reachable from res/layout/remote_pad.xml
+layout:activity_devices:2131099648 reachable from from dex
+layout:activity_remote:2131099649 reachable from from dex
+layout:activity_remote_guide:2131099650 reachable from from dex
+layout:activity_send:2131099651 reachable from from dex
+layout:activity_settings:2131099652 reachable from from dex
+layout:activity_shortcuts:2131099653 reachable from from dex
+layout:dialog_pair:2131099654 reachable from from dex
+layout:dialog_text_input:2131099655 reachable from from dex
+layout:dialog_update:2131099656 reachable from from dex
+layout:item_tv:2131099657 reachable from from dex
+layout:remote_banner:2131099658 reachable from res/layout/activity_remote.xml
+layout:remote_keyboard_bar:2131099659 reachable from res/layout/activity_remote.xml
+layout:remote_media_row:2131099660 reachable from res/layout/activity_remote.xml
+layout:remote_mode_toggle:2131099661 reachable from res/layout/activity_remote.xml
+layout:remote_nav_row:2131099662 reachable from res/layout/activity_remote.xml
+layout:remote_pad:2131099663 reachable from res/layout/activity_remote.xml
+layout:remote_top_bar:2131099664 reachable from res/layout/activity_remote.xml
+layout:remote_volume_hud:2131099665 reachable from res/layout/activity_remote.xml
+layout:remote_volume_row:2131099666 reachable from res/layout/activity_remote.xml
+mipmap:ic_launcher:2131165184 reachable from AndroidManifest.xml
+plurals:notification_sent_title:2131230720 reachable from from dex
+plurals:send_file_count:2131230721 reachable from from dex
+plurals:send_lost_arrived:2131230722 reachable from from dex
+plurals:send_lost_none_arrived:2131230723 reachable from from dex
+plurals:send_lost_rest_not_arrived:2131230724 reachable from from dex
+plurals:send_lost_rest_not_sent:2131230725 reachable from from dex
+plurals:send_lost_retry:2131230726 reachable from from dex
+plurals:send_lost_retry_all:2131230727 reachable from from dex
+plurals:send_sent_summary:2131230728 reachable from from dex
+plurals:shortcut_uses:2131230729 reachable from from dex
+plurals:shortcuts_rows_count:2131230730 reachable from from dex
+plurals:shortcuts_tv_apps_count:2131230731 reachable from from dex
+string:about_address:2131296256 reachable from from dex
+string:about_android:2131296257 reachable from from dex
+string:about_features:2131296258 reachable from from dex
+string:about_maker:2131296259 reachable from from dex
+string:about_model:2131296260 reachable from from dex
+string:about_never_connected:2131296261 reachable from from dex
+string:about_play_store:2131296262 reachable from from dex
+string:about_play_store_missing:2131296263 reachable from from dex
+string:about_receiver:2131296264 reachable from from dex
+string:about_receiver_absent:2131296265 reachable from from dex
+string:about_receiver_present:2131296266 reachable from from dex
+string:about_receiver_unknown:2131296267 reachable from from dex
+string:about_receiver_update:2131296268 reachable from from dex
+string:about_receiver_version:2131296269 reachable from from dex
+string:about_reported_before:2131296270 reachable from from dex
+string:about_reported_now:2131296271 reachable from from dex
+string:about_service:2131296272 reachable from from dex
+string:about_service_version:2131296273 reachable from from dex
+string:about_tv:2131296274 reachable from from dex
+string:add_tv:2131296275 reachable from from dex
+string:address_hint:2131296276 reachable from from dex
+string:address_invalid:2131296277 reachable from from dex
+string:address_pair:2131296278 reachable from from dex
+string:address_text:2131296279 reachable from from dex
+string:address_title:2131296280 reachable from from dex
+string:app_name:2131296281 reachable from AndroidManifest.xml
+string:back:2131296282 reachable from res/layout/activity_settings.xml
+string:btn_playlist:2131296283 reachable from res/layout/remote_nav_row.xml
+string:btn_youtube:2131296284 reachable from res/layout/remote_nav_row.xml
+string:cancel:2131296285 reachable from res/layout/activity_send.xml
+string:close:2131296286 reachable from from dex
+string:devices_add_by_address:2131296287 reachable from res/layout/activity_devices.xml
+string:devices_empty_text:2131296288 reachable from res/layout/activity_devices.xml
+string:devices_empty_title:2131296289 reachable from res/layout/activity_devices.xml
+string:devices_forget:2131296290 reachable from from dex
+string:devices_forget_text:2131296291 reachable from from dex
+string:devices_forget_title:2131296292 reachable from from dex
+string:devices_nearby:2131296293 reachable from res/layout/activity_devices.xml
+string:devices_offline:2131296294 reachable from from dex
+string:devices_online:2131296295 reachable from from dex
+string:devices_privacy:2131296296 reachable from res/layout/activity_devices.xml
+string:devices_rename:2131296297 reachable from from dex
+string:devices_searching:2131296298 reachable from res/layout/activity_devices.xml
+string:devices_tap_to_pair:2131296299 reachable from from dex
+string:devices_title:2131296300 reachable from res/layout/activity_devices.xml
+string:feature_app_links:2131296301 reachable from from dex
+string:feature_assistant:2131296302 reachable from from dex
+string:feature_find_remote:2131296303 reachable from from dex
+string:feature_gamepad:2131296304 reachable from from dex
+string:feature_keys:2131296305 reachable from from dex
+string:feature_other:2131296306 reachable from from dex
+string:feature_ping:2131296307 reachable from from dex
+string:feature_power:2131296308 reachable from from dex
+string:feature_typing:2131296309 reachable from from dex
+string:feature_unused:2131296310 reachable from from dex
+string:feature_voice:2131296311 reachable from from dex
+string:feature_volume:2131296312 reachable from from dex
+string:find_remote:2131296313 reachable from from dex
+string:find_remote_ringing:2131296314 reachable from from dex
+string:find_remote_stop:2131296315 reachable from from dex
+string:guide_about_tv_does:2131296316 reachable from from dex
+string:guide_add_tv_does:2131296317 reachable from from dex
+string:guide_app_settings_does:2131296318 reachable from from dex
+string:guide_apps_caveat:2131296319 reachable from from dex
+string:guide_apps_does:2131296320 reachable from from dex
+string:guide_back_does:2131296321 reachable from from dex
+string:guide_buttons:2131296322 reachable from from dex
+string:guide_captions_does:2131296323 reachable from from dex
+string:guide_channel_caveat:2131296324 reachable from from dex
+string:guide_channel_down_does:2131296325 reachable from from dex
+string:guide_channel_up_does:2131296326 reachable from from dex
+string:guide_dpad_does:2131296327 reachable from from dex
+string:guide_extra_keys:2131296328 reachable from from dex
+string:guide_extra_keys_note:2131296329 reachable from from dex
+string:guide_fast_forward_does:2131296330 reachable from from dex
+string:guide_find_remote_caveat:2131296331 reachable from from dex
+string:guide_find_remote_does:2131296332 reachable from from dex
+string:guide_full_does:2131296333 reachable from from dex
+string:guide_guide_caveat:2131296334 reachable from from dex
+string:guide_guide_does:2131296335 reachable from from dex
+string:guide_home_caveat:2131296336 reachable from from dex
+string:guide_home_does:2131296337 reachable from from dex
+string:guide_in_apps_caveat:2131296338 reachable from from dex
+string:guide_info_caveat:2131296339 reachable from from dex
+string:guide_info_does:2131296340 reachable from from dex
+string:guide_input_caveat:2131296341 reachable from from dex
+string:guide_input_does:2131296342 reachable from from dex
+string:guide_intro:2131296343 reachable from res/layout/activity_remote_guide.xml
+string:guide_keyboard_caveat:2131296344 reachable from from dex
+string:guide_keyboard_does:2131296345 reachable from from dex
+string:guide_media:2131296346 reachable from from dex
+string:guide_media_caveat:2131296347 reachable from from dex
+string:guide_menu_key_caveat:2131296348 reachable from from dex
+string:guide_menu_key_does:2131296349 reachable from from dex
+string:guide_mute_does:2131296350 reachable from from dex
+string:guide_next_does:2131296351 reachable from from dex
+string:guide_pad:2131296352 reachable from from dex
+string:guide_play_pause_does:2131296353 reachable from from dex
+string:guide_power_caveat:2131296354 reachable from from dex
+string:guide_power_does:2131296355 reachable from from dex
+string:guide_previous_does:2131296356 reachable from from dex
+string:guide_rewind_does:2131296357 reachable from from dex
+string:guide_right:2131296358 reachable from from dex
+string:guide_right_note:2131296359 reachable from from dex
+string:guide_search_does:2131296360 reachable from from dex
+string:guide_send_files_caveat:2131296361 reachable from from dex
+string:guide_send_files_does:2131296362 reachable from from dex
+string:guide_settings_caveat:2131296363 reachable from from dex
+string:guide_settings_does:2131296364 reachable from from dex
+string:guide_shortcut:2131296365 reachable from from dex
+string:guide_shortcut_add_does:2131296366 reachable from from dex
+string:guide_shortcut_caveat:2131296367 reachable from from dex
+string:guide_shortcut_does:2131296368 reachable from from dex
+string:guide_shortcuts:2131296369 reachable from from dex
+string:guide_simple_does:2131296370 reachable from from dex
+string:guide_strip_does:2131296371 reachable from from dex
+string:guide_title:2131296372 reachable from res/layout/activity_remote_guide.xml
+string:guide_top:2131296373 reachable from from dex
+string:guide_touchpad_does:2131296374 reachable from from dex
+string:guide_tv_buttons_caveat:2131296375 reachable from from dex
+string:guide_tv_buttons_does:2131296376 reachable from from dex
+string:guide_tv_menu:2131296377 reachable from from dex
+string:guide_tv_name:2131296378 reachable from from dex
+string:guide_tv_name_does:2131296379 reachable from from dex
+string:guide_volume:2131296380 reachable from from dex
+string:guide_volume_caveat:2131296381 reachable from from dex
+string:guide_volume_down_does:2131296382 reachable from from dex
+string:guide_volume_up_does:2131296383 reachable from from dex
+string:key_apps:2131296384 reachable from res/layout/remote_pad.xml
+string:key_back:2131296385 reachable from res/layout/remote_nav_row.xml
+string:key_captions:2131296386 reachable from res/layout/remote_pad.xml
+string:key_channel_down:2131296387 reachable from res/layout/remote_pad.xml
+string:key_channel_up:2131296388 reachable from res/layout/remote_pad.xml
+string:key_down:2131296389 reachable from from dex
+string:key_fast_forward:2131296390 reachable from res/layout/remote_media_row.xml
+string:key_guide:2131296391 reachable from res/layout/remote_pad.xml
+string:key_home:2131296392 reachable from res/layout/remote_nav_row.xml
+string:key_info:2131296393 reachable from res/layout/remote_pad.xml
+string:key_input:2131296394 reachable from res/layout/remote_pad.xml
+string:key_left:2131296395 reachable from from dex
+string:key_menu:2131296396 reachable from res/layout/remote_pad.xml
+string:key_mute:2131296397 reachable from res/layout/remote_pad.xml
+string:key_next:2131296398 reachable from res/layout/remote_media_row.xml
+string:key_ok:2131296399 reachable from from dex
+string:key_play_pause:2131296400 reachable from res/layout/remote_media_row.xml
+string:key_power:2131296401 reachable from res/layout/remote_top_bar.xml
+string:key_previous:2131296402 reachable from res/layout/remote_media_row.xml
+string:key_rewind:2131296403 reachable from res/layout/remote_media_row.xml
+string:key_right:2131296404 reachable from from dex
+string:key_search:2131296405 reachable from res/layout/remote_pad.xml
+string:key_settings:2131296406 reachable from res/layout/remote_pad.xml
+string:key_up:2131296407 reachable from from dex
+string:key_volume_down:2131296408 reachable from res/layout/remote_pad.xml
+string:key_volume_up:2131296409 reachable from res/layout/remote_pad.xml
+string:keyboard:2131296410 reachable from res/layout/remote_nav_row.xml
+string:keyboard_clear:2131296411 reachable from res/layout/remote_keyboard_bar.xml
+string:keyboard_hide:2131296412 reachable from res/layout/remote_keyboard_bar.xml
+string:keyboard_hint:2131296413 reachable from res/layout/remote_keyboard_bar.xml
+string:keyboard_send:2131296414 reachable from res/layout/remote_keyboard_bar.xml
+string:mode_dpad:2131296415 reachable from res/layout/remote_mode_toggle.xml
+string:mode_full:2131296416 reachable from res/layout/remote_mode_toggle.xml
+string:mode_simple:2131296417 reachable from res/layout/remote_mode_toggle.xml
+string:mode_touchpad:2131296418 reachable from res/layout/remote_mode_toggle.xml
+string:more:2131296419 reachable from res/layout/item_tv.xml
+string:notification_channel:2131296420 reachable from from dex
+string:notification_channel_description:2131296421 reachable from from dex
+string:notification_confirm:2131296422 reachable from from dex
+string:notification_failed_text:2131296423 reachable from from dex
+string:notification_failed_title:2131296424 reachable from from dex
+string:notification_lost_text:2131296425 reachable from from dex
+string:notification_progress:2131296426 reachable from from dex
+string:notification_sent_text:2131296427 reachable from from dex
+string:ok:2131296428 reachable from from dex
+string:pair_again:2131296429 reachable from from dex
+string:pair_button:2131296430 reachable from res/layout/dialog_pair.xml
+string:pair_cancelled:2131296431 reachable from from dex
+string:pair_code_description:2131296432 reachable from res/layout/dialog_pair.xml
+string:pair_connecting:2131296433 reachable from from dex
+string:pair_enter_code:2131296434 reachable from from dex
+string:pair_failed:2131296435 reachable from from dex
+string:pair_rejected:2131296436 reachable from from dex
+string:pair_retry:2131296437 reachable from from dex
+string:pair_slow:2131296438 reachable from from dex
+string:pair_title:2131296439 reachable from from dex
+string:pair_unreachable:2131296440 reachable from from dex
+string:pair_verifying:2131296441 reachable from from dex
+string:pair_wrong_code:2131296442 reachable from from dex
+string:paired:2131296443 reachable from from dex
+string:playlist_description:2131296444 reachable from res/layout/remote_nav_row.xml
+string:playlist_dialog_msg:2131296445 reachable from from dex
+string:playlist_dialog_title_edit:2131296446 reachable from from dex
+string:playlist_dialog_title_new:2131296447 reachable from from dex
+string:playlist_invalid_url:2131296448 reachable from from dex
+string:playlist_name_hint:2131296449 reachable from from dex
+string:playlist_offline:2131296450 reachable from from dex
+string:playlist_opening:2131296451 reachable from from dex
+string:playlist_remove:2131296452 reachable from from dex
+string:playlist_save_open:2131296453 reachable from from dex
+string:playlist_url_hint:2131296454 reachable from from dex
+string:problem_identity_text:2131296455 reachable from from dex
+string:problem_identity_title:2131296456 reachable from from dex
+string:problem_not_paired_text:2131296457 reachable from from dex
+string:problem_not_paired_title:2131296458 reachable from from dex
+string:problem_refused_text:2131296459 reachable from from dex
+string:problem_refused_title:2131296460 reachable from from dex
+string:problem_unreachable_text:2131296461 reachable from from dex
+string:problem_unreachable_title:2131296462 reachable from from dex
+string:receiver_update_confirm:2131296463 reachable from from dex
+string:receiver_update_dismiss:2131296464 reachable from from dex
+string:receiver_update_done_text:2131296465 reachable from from dex
+string:receiver_update_done_title:2131296466 reachable from from dex
+string:receiver_update_failed:2131296467 reachable from from dex
+string:receiver_update_how:2131296468 reachable from from dex
+string:receiver_update_missing:2131296469 reachable from from dex
+string:receiver_update_no_answer:2131296470 reachable from from dex
+string:receiver_update_note:2131296471 reachable from from dex
+string:receiver_update_note_summary:2131296472 reachable from from dex
+string:receiver_update_step_download:2131296473 reachable from from dex
+string:receiver_update_step_open:2131296474 reachable from from dex
+string:receiver_update_step_send:2131296475 reachable from from dex
+string:receiver_update_title:2131296476 reachable from from dex
+string:receiver_update_versions:2131296477 reachable from from dex
+string:receiver_update_waited_text:2131296478 reachable from from dex
+string:receiver_update_waited_title:2131296479 reachable from from dex
+string:receiver_update_waiting:2131296480 reachable from from dex
+string:receiver_updating:2131296481 reachable from from dex
+string:report_copied:2131296482 reachable from from dex
+string:report_copy:2131296483 reachable from from dex
+string:report_no_browser:2131296484 reachable from from dex
+string:report_open:2131296485 reachable from from dex
+string:report_text:2131296486 reachable from from dex
+string:report_title:2131296487 reachable from from dex
+string:retry:2131296488 reachable from from dex
+string:retrying_in:2131296489 reachable from from dex
+string:save:2131296490 reachable from from dex
+string:send_busy_text:2131296491 reachable from from dex
+string:send_busy_title:2131296492 reachable from from dex
+string:send_button:2131296493 reachable from res/layout/activity_send.xml
+string:send_cant_open_text:2131296494 reachable from from dex
+string:send_cant_open_title:2131296495 reachable from from dex
+string:send_change_tv:2131296496 reachable from from dex
+string:send_confirm_text:2131296497 reachable from from dex
+string:send_confirm_title:2131296498 reachable from from dex
+string:send_current_file:2131296499 reachable from from dex
+string:send_declined_text:2131296500 reachable from from dex
+string:send_declined_title:2131296501 reachable from from dex
+string:send_done:2131296502 reachable from from dex
+string:send_files:2131296503 reachable from res/layout/remote_top_bar.xml
+string:send_lost_cut_off:2131296504 reachable from from dex
+string:send_lost_not_arrived:2131296505 reachable from from dex
+string:send_lost_not_sent:2131296506 reachable from from dex
+string:send_lost_range:2131296507 reachable from from dex
+string:send_lost_text:2131296508 reachable from from dex
+string:send_lost_title:2131296509 reachable from from dex
+string:send_lost_unconfirmed:2131296510 reachable from from dex
+string:send_no_receiver_text:2131296511 reachable from from dex
+string:send_no_receiver_title:2131296512 reachable from from dex
+string:send_no_tv_text:2131296513 reachable from from dex
+string:send_no_tv_title:2131296514 reachable from from dex
+string:send_not_listening_text:2131296515 reachable from from dex
+string:send_not_listening_title:2131296516 reachable from from dex
+string:send_nothing_text:2131296517 reachable from from dex
+string:send_nothing_title:2131296518 reachable from from dex
+string:send_opening_receiver:2131296519 reachable from from dex
+string:send_preparing:2131296520 reachable from from dex
+string:send_progress:2131296521 reachable from from dex
+string:send_refused_text:2131296522 reachable from from dex
+string:send_refused_title:2131296523 reachable from from dex
+string:send_sent_text:2131296524 reachable from from dex
+string:send_sent_title:2131296525 reachable from from dex
+string:send_share_label:2131296526 reachable from AndroidManifest.xml
+string:send_stalled_text:2131296527 reachable from from dex
+string:send_stalled_title:2131296528 reachable from from dex
+string:send_title:2131296529 reachable from from dex
+string:send_title_sending:2131296530 reachable from from dex
+string:send_unreadable_text:2131296531 reachable from from dex
+string:send_unreadable_title:2131296532 reachable from from dex
+string:send_unverified_text:2131296533 reachable from from dex
+string:send_unverified_title:2131296534 reachable from from dex
+string:settings:2131296535 reachable from res/layout/activity_devices.xml
+string:settings_about:2131296536 reachable from res/layout/activity_settings.xml
+string:settings_auto_keyboard:2131296537 reachable from res/layout/activity_settings.xml
+string:settings_check_auto:2131296538 reachable from from dex
+string:settings_check_auto_summary:2131296539 reachable from from dex
+string:settings_check_now:2131296540 reachable from res/layout/activity_settings.xml
+string:settings_check_now_checked:2131296541 reachable from from dex
+string:settings_check_now_just:2131296542 reachable from from dex
+string:settings_check_now_summary:2131296543 reachable from from dex
+string:settings_checking:2131296544 reachable from from dex
+string:settings_controls:2131296545 reachable from res/layout/activity_settings.xml
+string:settings_guide:2131296546 reachable from res/layout/activity_settings.xml
+string:settings_guide_summary:2131296547 reachable from res/layout/activity_settings.xml
+string:settings_haptics:2131296548 reachable from res/layout/activity_settings.xml
+string:settings_keep_screen_on:2131296549 reachable from res/layout/activity_settings.xml
+string:settings_licence:2131296550 reachable from res/layout/activity_settings.xml
+string:settings_no_tvs:2131296551 reachable from from dex
+string:settings_privacy:2131296552 reachable from res/layout/activity_settings.xml
+string:settings_privacy_updates:2131296553 reachable from from dex
+string:settings_remote:2131296554 reachable from res/layout/activity_settings.xml
+string:settings_report:2131296555 reachable from res/layout/activity_settings.xml
+string:settings_report_summary:2131296556 reachable from res/layout/activity_settings.xml
+string:settings_shortcuts:2131296557 reachable from res/layout/activity_settings.xml
+string:settings_shortcuts_summary:2131296558 reachable from res/layout/activity_settings.xml
+string:settings_tvs:2131296559 reachable from res/layout/activity_settings.xml
+string:settings_update_receiver:2131296560 reachable from from dex
+string:settings_update_receiver_summary:2131296561 reachable from from dex
+string:settings_updates:2131296562 reachable from res/layout/activity_settings.xml
+string:settings_version:2131296563 reachable from from dex
+string:settings_volume_keys:2131296564 reachable from res/layout/activity_settings.xml
+string:shortcut_busy:2131296566 reachable from from dex
+string:shortcut_failed:2131296567 reachable from from dex
+string:shortcut_hidden:2131296568 reachable from from dex
+string:shortcut_hide:2131296569 reachable from from dex
+string:shortcut_menu:2131296570 reachable from from dex
+string:shortcut_menu_for:2131296571 reachable from from dex
+string:shortcut_move_down:2131296572 reachable from from dex
+string:shortcut_move_up:2131296573 reachable from from dex
+string:shortcut_needs_receiver:2131296574 reachable from from dex
+string:shortcut_not_installed:2131296575 reachable from from dex
+string:shortcut_not_on_tv:2131296576 reachable from from dex
+string:shortcut_not_used:2131296577 reachable from from dex
+string:shortcut_offline:2131296578 reachable from from dex
+string:shortcut_pin:2131296579 reachable from from dex
+string:shortcut_rename:2131296580 reachable from from dex
+string:shortcut_rename_text:2131296581 reachable from from dex
+string:shortcut_rename_title:2131296582 reachable from from dex
+string:shortcut_unpin:2131296583 reachable from from dex
+string:shortcuts_add:2131296584 reachable from from dex
+string:shortcuts_add_button:2131296585 reachable from from dex
+string:shortcuts_add_for:2131296586 reachable from from dex
+string:shortcuts_add_title:2131296587 reachable from from dex
+string:shortcuts_all_added:2131296588 reachable from from dex
+string:shortcuts_by_package:2131296589 reachable from from dex
+string:shortcuts_by_package_hint:2131296590 reachable from from dex
+string:shortcuts_by_package_invalid:2131296591 reachable from from dex
+string:shortcuts_by_package_text:2131296592 reachable from from dex
+string:shortcuts_by_use:2131296593 reachable from res/layout/activity_shortcuts.xml
+string:shortcuts_choose_tv:2131296594 reachable from from dex
+string:shortcuts_for:2131296595 reachable from from dex
+string:shortcuts_hidden:2131296596 reachable from res/layout/activity_shortcuts.xml
+string:shortcuts_look:2131296597 reachable from res/layout/activity_shortcuts.xml
+string:shortcuts_no_tv:2131296598 reachable from from dex
+string:shortcuts_on_remote:2131296599 reachable from res/layout/activity_shortcuts.xml
+string:shortcuts_on_remote_text:2131296600 reachable from res/layout/activity_shortcuts.xml
+string:shortcuts_on_tv:2131296601 reachable from from dex
+string:shortcuts_other:2131296602 reachable from from dex
+string:shortcuts_pinned:2131296603 reachable from res/layout/activity_shortcuts.xml
+string:shortcuts_popular:2131296604 reachable from from dex
+string:shortcuts_reset:2131296605 reachable from res/layout/activity_shortcuts.xml
+string:shortcuts_reset_button:2131296606 reachable from from dex
+string:shortcuts_reset_confirm:2131296607 reachable from from dex
+string:shortcuts_reset_text:2131296608 reachable from res/layout/activity_shortcuts.xml
+string:shortcuts_reset_title:2131296609 reachable from from dex
+string:shortcuts_restore:2131296610 reachable from from dex
+string:shortcuts_rows:2131296611 reachable from res/layout/activity_shortcuts.xml
+string:shortcuts_size:2131296612 reachable from res/layout/activity_shortcuts.xml
+string:shortcuts_size_l:2131296613 reachable from from dex
+string:shortcuts_size_m:2131296614 reachable from from dex
+string:shortcuts_size_s:2131296615 reachable from from dex
+string:shortcuts_start_over:2131296616 reachable from res/layout/activity_shortcuts.xml
+string:shortcuts_style:2131296617 reachable from res/layout/activity_shortcuts.xml
+string:shortcuts_style_icons:2131296618 reachable from from dex
+string:shortcuts_style_text:2131296619 reachable from from dex
+string:shortcuts_style_tiles:2131296620 reachable from from dex
+string:shortcuts_sync:2131296621 reachable from from dex
+string:shortcuts_sync_button:2131296622 reachable from res/layout/activity_shortcuts.xml
+string:shortcuts_sync_confirm:2131296623 reachable from from dex
+string:shortcuts_sync_declined:2131296624 reachable from from dex
+string:shortcuts_sync_failed:2131296625 reachable from from dex
+string:shortcuts_sync_hint:2131296626 reachable from from dex
+string:shortcuts_sync_running:2131296627 reachable from from dex
+string:shortcuts_title:2131296628 reachable from res/layout/activity_shortcuts.xml
+string:shortcuts_tv_apps:2131296629 reachable from res/layout/activity_shortcuts.xml
+string:shortcuts_tv_apps_text:2131296630 reachable from res/layout/activity_shortcuts.xml
+string:status_connected:2131296631 reachable from from dex
+string:status_connected_app:2131296632 reachable from from dex
+string:status_connecting:2131296633 reachable from from dex
+string:status_offline:2131296634 reachable from from dex
+string:status_reconnecting:2131296635 reachable from from dex
+string:status_screen_off:2131296636 reachable from from dex
+string:strip:2131296637 reachable from from dex
+string:strip_hint:2131296638 reachable from from dex
+string:switch_tv:2131296639 reachable from res/layout/remote_top_bar.xml
+string:touchpad_hint:2131296640 reachable from from dex
+string:tv_buttons:2131296641 reachable from from dex
+string:tv_buttons_apps:2131296642 reachable from from dex
+string:tv_buttons_channels:2131296643 reachable from from dex
+string:tv_picker_connected:2131296644 reachable from from dex
+string:tv_picker_current:2131296645 reachable from from dex
+string:update_announce_receiver:2131296646 reachable from from dex
+string:update_available:2131296647 reachable from from dex
+string:update_channel:2131296648 reachable from from dex
+string:update_check_failed:2131296649 reachable from from dex
+string:update_corrupt:2131296650 reachable from from dex
+string:update_details:2131296651 reachable from from dex
+string:update_done_text:2131296652 reachable from from dex
+string:update_done_title:2131296653 reachable from from dex
+string:update_downloading:2131296654 reachable from from dex
+string:update_failed:2131296655 reachable from from dex
+string:update_install:2131296656 reachable from from dex
+string:update_later:2131296657 reachable from from dex
+string:update_none:2131296658 reachable from from dex
+string:update_not_newer:2131296659 reachable from from dex
+string:update_not_signed:2131296660 reachable from from dex
+string:update_receiver_too:2131296661 reachable from from dex
+string:update_skip:2131296662 reachable from from dex
+string:update_wrong_app:2131296663 reachable from from dex
+string:volume:2131296664 reachable from from dex
+string:volume_muted:2131296665 reachable from from dex
+style:Libremote:2131361792 reachable from style:Libremote_Icon:2131361801
+style:Libremote_Body:2131361793 reachable from res/layout/activity_devices.xml
+style:Libremote_Button:2131361794 reachable from style:Libremote_Button_Text:2131361795
+style:Libremote_Button_Text:2131361795 reachable from res/layout/remote_banner.xml
+style:Libremote_Button_Tonal:2131361796 reachable from res/layout/activity_devices.xml
+style:Libremote_CodeBox:2131361797 reachable from res/layout/dialog_pair.xml
+style:Libremote_ColumnButton:2131361798 reachable from res/layout/remote_pad.xml
+style:Libremote_DialogButton:2131361799 reachable from style:Theme_Libremote_Dialog:2131361820
+style:Libremote_ExtraKey:2131361800 reachable from res/layout/remote_pad.xml
+style:Libremote_Icon:2131361801 reachable from res/layout/activity_devices.xml
+style:Libremote_KeyColumn:2131361802 reachable from res/layout/remote_pad.xml
+style:Libremote_KeyRow:2131361803 reachable from res/layout/remote_pad.xml
+style:Libremote_Label:2131361804 reachable from res/layout/activity_shortcuts.xml
+style:Libremote_ModeSegment:2131361805 reachable from res/layout/remote_mode_toggle.xml
+style:Libremote_PillButton:2131361806 reachable from res/layout/remote_media_row.xml
+style:Libremote_Round:2131361807 reachable from res/layout/remote_nav_row.xml
+style:Libremote_RoundTextButton:2131361808 reachable from res/layout/remote_nav_row.xml
+style:Libremote_Section:2131361809 reachable from res/layout/activity_devices.xml
+style:Libremote_Segments:2131361810 reachable from res/layout/activity_shortcuts.xml
+style:Libremote_SettingLink:2131361811 reachable from res/layout/activity_settings.xml
+style:Libremote_SettingLinkChevron:2131361812 reachable from res/layout/activity_settings.xml
+style:Libremote_SettingLinkIcon:2131361813 reachable from res/layout/activity_settings.xml
+style:Libremote_SettingLinkSummary:2131361814 reachable from res/layout/activity_settings.xml
+style:Libremote_SettingLinkTitle:2131361815 reachable from res/layout/activity_settings.xml
+style:Libremote_Switch:2131361816 reachable from res/layout/activity_settings.xml
+style:Libremote_Title:2131361817 reachable from res/layout/remote_top_bar.xml
+style:SheetAnimation:2131361818 reachable from style:Theme_Libremote_Sheet:2131361822
+style:Theme_Libremote:2131361819 reachable from AndroidManifest.xml
+style:Theme_Libremote_Dialog:2131361820 reachable from style:Theme_Libremote:2131361819
+style:Theme_Libremote_Floating:2131361821 reachable from AndroidManifest.xml
+style:Theme_Libremote_Sheet:2131361822 reachable from from dex
+xml:data_extraction_rules:2131427328 reachable from AndroidManifest.xml
+color:scrim:2130903051 is not reachable.
+drawable:ic_link_off:2130968623 is not reachable.
+drawable:ic_refresh:2130968630 is not reachable.
+drawable:ic_wifi_off:2130968649 is not reachable.
+string:settings_volume_keys_summary:2131296565 is not reachable.
+string:youtube_opening:2131296666 is not reachable.

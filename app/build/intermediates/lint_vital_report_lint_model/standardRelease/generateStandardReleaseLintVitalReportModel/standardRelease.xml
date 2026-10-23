@@ -1,0 +1,36 @@
+<variant
+    name="standardRelease"
+    package="com.uniremote"
+    minSdkVersion="26"
+    targetSdkVersion="36.0"
+    shrinking="true"
+    mergedManifest="build\intermediates\merged_manifest\standardRelease\processStandardReleaseMainManifest\AndroidManifest.xml"
+    manifestMergeReport="build\outputs\logs\manifest-merger-standard-release-report.txt"
+    proguardFiles="build\intermediates\default_proguard_files\global\proguard-android-optimize.txt-9.4.1;proguard-rules.pro"
+    partialResultsDir="build\intermediates\lint_vital_partial_results\standardRelease\lintVitalAnalyzeStandardRelease\out">
+  <buildFeatures/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src\main\AndroidManifest.xml;src\standard\AndroidManifest.xml"
+        javaDirectories="src\main\java;src\standard\java;src\release\java;src\standardRelease\java;src\main\kotlin;src\standard\kotlin;src\release\kotlin;src\standardRelease\kotlin"
+        resDirectories="src\main\res;src\standard\res;src\release\res;src\standardRelease\res"
+        assetsDirectories="src\main\assets;src\standard\assets;src\release\assets;src\standardRelease\assets"
+        keepRulesDirectories="src\main\keepRules;src\standard\keepRules;src\release\keepRules;src\standardRelease\keepRules"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="cleartext"
+        value="false" />
+  </manifestPlaceholders>
+  <artifact
+      classOutputs="build\intermediates\javac\standardRelease\compileStandardReleaseJavaWithJavac\classes;build\intermediates\built_in_kotlinc\standardRelease\compileStandardReleaseKotlin\classes;build\intermediates\compile_r_class_jar\standardRelease\generateStandardReleaseRFile\R.jar"
+      type="MAIN"
+      applicationId="com.uniremote"
+      generatedSourceFolders="build\generated\ap_generated_sources\standardRelease\out;build\generated\source\buildConfig\standard\release"
+      desugaredMethodsFiles="C:\Users\Abhishek Yadav\.gradle\caches\9.8.1\transforms\8cc0eba649869e441b2a9b3217c98628\transformed\D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>

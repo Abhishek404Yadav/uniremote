@@ -1,0 +1,22 @@
+-keep class com.uniremote.UniRemoteApp { <init>(); }
+-keep class com.uniremote.ui.DevicesActivity { <init>(); }
+-keep class com.uniremote.ui.RemoteActivity { <init>(); }
+-keep class com.uniremote.ui.RemoteGuideActivity { <init>(); }
+-keep class com.uniremote.ui.SendActivity { <init>(); }
+-keep class com.uniremote.ui.SendService { <init>(); }
+-keep class com.uniremote.ui.SettingsActivity { <init>(); }
+-keep class com.uniremote.ui.ShortcutsActivity { <init>(); }
+-keep class com.uniremote.update.InstallReceiver { <init>(); }
+-keep class com.uniremote.update.UpdatedReceiver { <init>(); }
+-keep class com.uniremote.ui.DpadView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.uniremote.ui.MaxWidthLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.uniremote.ui.PadLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.uniremote.ui.PrivateEditText { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.uniremote.ui.ShortcutsView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.uniremote.ui.TouchpadView { <init>(android.content.Context, android.util.AttributeSet); }
+

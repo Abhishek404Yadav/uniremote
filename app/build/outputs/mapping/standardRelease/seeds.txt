@@ -1,0 +1,88 @@
+com.uniremote.UniRemoteApp
+com.uniremote.ui.SettingsActivity
+com.uniremote.ui.PrivateEditText
+com.uniremote.update.UpdatedReceiver
+com.uniremote.ui.MaxWidthLinearLayout
+com.uniremote.ui.DpadView
+com.uniremote.ui.ShortcutsView
+com.uniremote.ui.SendActivity
+com.uniremote.ui.DevicesActivity
+com.uniremote.ui.ShortcutsActivity
+com.uniremote.ui.RemoteActivity
+com.uniremote.ui.RemoteGuideActivity
+com.uniremote.ui.SendService
+com.uniremote.ui.PadLayout
+com.uniremote.update.InstallReceiver
+com.uniremote.ui.TouchpadView
+com.uniremote.ui.ShortcutsView: boolean getForceHidden()
+com.uniremote.ui.DpadView: com.uniremote.ui.DpadView$Listener getListener()
+com.uniremote.net.RemoteController$Problem: com.uniremote.net.RemoteController$Problem valueOf(java.lang.String)
+com.uniremote.net.RemoteController$LinkResult: com.uniremote.net.RemoteController$LinkResult[] values()
+com.uniremote.ui.PadLayout: void setTyping(boolean)
+com.uniremote.ui.RemoteGuideActivity: RemoteGuideActivity()
+com.uniremote.ui.DpadView$Pad: com.uniremote.ui.DpadView$Pad[] values()
+com.uniremote.data.ShortcutLook$Size: com.uniremote.data.ShortcutLook$Size[] values()
+com.uniremote.ui.DpadView: void getAccessibility$annotations()
+com.uniremote.data.TvKind: com.uniremote.data.TvKind[] values()
+com.uniremote.ui.PrivateEditText: int getAutofillType()
+kotlin.text.RegexOption: kotlin.text.RegexOption[] values()
+com.uniremote.net.AppLauncher$Way: com.uniremote.net.AppLauncher$Way valueOf(java.lang.String)
+com.uniremote.ui.ShortcutsView: void setForceHidden(boolean)
+com.uniremote.protocol.VolumeState$Control: com.uniremote.protocol.VolumeState$Control valueOf(java.lang.String)
+com.uniremote.protocol.TvError: com.uniremote.protocol.TvError[] values()
+kotlin.io.FileWalkDirection: kotlin.io.FileWalkDirection valueOf(java.lang.String)
+kotlin.text.RegexOption: kotlin.text.RegexOption valueOf(java.lang.String)
+com.uniremote.ui.TouchpadView: boolean getCompact()
+com.uniremote.ui.PadLayout: void setMode(com.uniremote.data.PadMode)
+com.uniremote.ui.ShortcutsView: void setStepAside(boolean)
+com.uniremote.ui.PadLayout: PadLayout(android.content.Context,android.util.AttributeSet)
+com.uniremote.ui.ShortcutsView: boolean getStepAside()
+com.uniremote.ui.TouchpadView: void setListener(com.uniremote.ui.DpadView$Listener)
+com.uniremote.protocol.TvError: com.uniremote.protocol.TvError valueOf(java.lang.String)
+com.uniremote.ui.SendActivity: SendActivity()
+com.uniremote.ui.PrivateEditText: android.view.autofill.AutofillValue getAutofillValue()
+com.uniremote.data.ShortcutStore$Change: com.uniremote.data.ShortcutStore$Change valueOf(java.lang.String)
+com.uniremote.UniRemoteApp: UniRemoteApp()
+com.uniremote.ui.ShortcutsView: void setPreview(boolean)
+com.uniremote.net.RemoteController$Problem: com.uniremote.net.RemoteController$Problem[] values()
+com.uniremote.ui.PadLayout: com.uniremote.data.PadMode getMode()
+com.uniremote.data.ShortcutLook$Style: com.uniremote.data.ShortcutLook$Style[] values()
+com.uniremote.ui.ShortcutsView: ShortcutsView(android.content.Context,android.util.AttributeSet)
+com.uniremote.ui.SettingsActivity: SettingsActivity()
+com.uniremote.ui.ShortcutsActivity: ShortcutsActivity()
+com.uniremote.net.ReceiverState: com.uniremote.net.ReceiverState[] values()
+com.uniremote.net.SendController$Problem: com.uniremote.net.SendController$Problem valueOf(java.lang.String)
+com.uniremote.ui.SendService: SendService()
+com.uniremote.protocol.VolumeState$Control: com.uniremote.protocol.VolumeState$Control[] values()
+com.uniremote.update.InstallReceiver: InstallReceiver()
+com.uniremote.ui.PrivateEditText: PrivateEditText(android.content.Context,android.util.AttributeSet)
+com.uniremote.ui.MaxWidthLinearLayout: MaxWidthLinearLayout(android.content.Context,android.util.AttributeSet)
+com.uniremote.ui.PadLayout: boolean getTyping()
+com.uniremote.ui.MaxHeightScrollView: void setMaxHeight(int)
+com.uniremote.ui.DevicesActivity: DevicesActivity()
+com.uniremote.update.UpdatedReceiver: UpdatedReceiver()
+com.uniremote.net.AppLauncher$Outcome: com.uniremote.net.AppLauncher$Outcome valueOf(java.lang.String)
+com.uniremote.data.PadMode: com.uniremote.data.PadMode valueOf(java.lang.String)
+kotlin.io.FileWalkDirection: kotlin.io.FileWalkDirection[] values()
+com.uniremote.data.ShortcutStore$Change: com.uniremote.data.ShortcutStore$Change[] values()
+com.uniremote.ui.TouchpadView: com.uniremote.ui.DpadView$Listener getListener()
+com.uniremote.ui.MaxHeightScrollView: int getMaxHeight()
+com.uniremote.net.SendController$Problem: com.uniremote.net.SendController$Problem[] values()
+com.uniremote.ui.TouchpadView: void setCompact(boolean)
+com.uniremote.net.AppLauncher$Outcome: com.uniremote.net.AppLauncher$Outcome[] values()
+com.uniremote.ui.ShortcutsView: ShortcutsView(android.content.Context)
+com.uniremote.data.PadMode: com.uniremote.data.PadMode[] values()
+com.uniremote.net.RemoteController$LinkResult: com.uniremote.net.RemoteController$LinkResult valueOf(java.lang.String)
+com.uniremote.ui.DpadView$Pad: com.uniremote.ui.DpadView$Pad valueOf(java.lang.String)
+com.uniremote.net.AppLauncher$Way: com.uniremote.net.AppLauncher$Way[] values()
+com.uniremote.data.ShortcutLook$Size: com.uniremote.data.ShortcutLook$Size valueOf(java.lang.String)
+com.uniremote.net.ReceiverState: com.uniremote.net.ReceiverState valueOf(java.lang.String)
+com.uniremote.ui.DpadView: DpadView(android.content.Context,android.util.AttributeSet)
+com.uniremote.data.TvKind: com.uniremote.data.TvKind valueOf(java.lang.String)
+com.uniremote.ui.DpadView: android.view.accessibility.AccessibilityNodeProvider getAccessibilityNodeProvider()
+com.uniremote.ui.RemoteActivity: RemoteActivity()
+com.uniremote.ui.ShortcutsView: boolean getPreview()
+com.uniremote.ui.DpadView: void setListener(com.uniremote.ui.DpadView$Listener)
+com.uniremote.ui.TouchpadView: TouchpadView(android.content.Context,android.util.AttributeSet)
+com.uniremote.data.ShortcutLook$Style: com.uniremote.data.ShortcutLook$Style valueOf(java.lang.String)
+com.uniremote.ui.PrivateEditText: PrivateEditText(android.content.Context)

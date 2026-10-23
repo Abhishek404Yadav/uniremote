@@ -1,0 +1,175 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.uniremote"
+4    android:versionCode="10000"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="26"
+8-->INJECTED
+9        android:targetSdkVersion="36" />
+9-->INJECTED
+10
+11    <!--
+12         Updates of Libremote itself from its GitHub releases, through Android's installer, which asks the user to
+13         confirm each one. Only in this build: the Google Play build has no updater.
+14    -->
+15    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+15-->C:\remote\app\src\standard\AndroidManifest.xml:6:5-83
+15-->C:\remote\app\src\standard\AndroidManifest.xml:6:22-80
+16    <!--
+17     Sockets to TVs on the local network: the remote, and Libremote Receiver on the TV. Libremote talks to nothing
+18         else, except github.com in the standard build when the user checks for updates (src/standard).
+19    -->
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->C:\remote\app\src\main\AndroidManifest.xml:7:5-67
+20-->C:\remote\app\src\main\AndroidManifest.xml:7:22-64
+21    <!--
+22 Send files: a batch keeps going in the background, in a data-sync foreground service with a progress
+23         notification. Android 13+ asks before showing notifications, on the first send; sending works without.
+24    -->
+25    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+25-->C:\remote\app\src\main\AndroidManifest.xml:11:5-77
+25-->C:\remote\app\src\main\AndroidManifest.xml:11:22-74
+26    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+26-->C:\remote\app\src\main\AndroidManifest.xml:12:5-87
+26-->C:\remote\app\src\main\AndroidManifest.xml:12:22-84
+27    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+27-->C:\remote\app\src\main\AndroidManifest.xml:13:5-77
+27-->C:\remote\app\src\main\AndroidManifest.xml:13:22-74
+28
+29    <application
+29-->INJECTED
+30        android:name="com.uniremote.UniRemoteApp"
+30-->C:\remote\app\src\main\AndroidManifest.xml:16:9-37
+31        android:allowBackup="false"
+31-->C:\remote\app\src\main\AndroidManifest.xml:17:9-36
+32        android:dataExtractionRules="@xml/data_extraction_rules"
+32-->C:\remote\app\src\main\AndroidManifest.xml:18:9-65
+33        android:extractNativeLibs="false"
+33-->INJECTED
+34        android:fullBackupContent="false"
+34-->C:\remote\app\src\main\AndroidManifest.xml:19:9-42
+35        android:icon="@mipmap/ic_launcher"
+35-->C:\remote\app\src\main\AndroidManifest.xml:20:9-43
+36        android:label="@string/app_name"
+36-->C:\remote\app\src\main\AndroidManifest.xml:21:9-41
+37        android:supportsRtl="true"
+37-->C:\remote\app\src\main\AndroidManifest.xml:22:9-35
+38        android:theme="@style/Theme.Libremote"
+38-->C:\remote\app\src\main\AndroidManifest.xml:23:9-47
+39        android:usesCleartextTraffic="false" >
+39-->INJECTED
+40
+41        <!-- Hears back from the system installer while Libremote installs an update of itself. -->
+42        <receiver
+42-->C:\remote\app\src\standard\AndroidManifest.xml:10:9-12:40
+43            android:name="com.uniremote.update.InstallReceiver"
+43-->C:\remote\app\src\standard\AndroidManifest.xml:11:13-51
+44            android:exported="false" />
+44-->C:\remote\app\src\standard\AndroidManifest.xml:12:13-37
+45        <!--
+46             After an update the user started from Libremote: opens it again, or from Android 10 says so in a
+47             notification.
+48        -->
+49        <receiver
+49-->C:\remote\app\src\standard\AndroidManifest.xml:15:9-21:20
+50            android:name="com.uniremote.update.UpdatedReceiver"
+50-->C:\remote\app\src\standard\AndroidManifest.xml:16:13-51
+51            android:exported="false" >
+51-->C:\remote\app\src\standard\AndroidManifest.xml:17:13-37
+52            <intent-filter>
+52-->C:\remote\app\src\standard\AndroidManifest.xml:18:13-20:29
+53                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+53-->C:\remote\app\src\standard\AndroidManifest.xml:19:17-84
+53-->C:\remote\app\src\standard\AndroidManifest.xml:19:25-81
+54            </intent-filter>
+55        </receiver>
+56
+57        <activity
+57-->C:\remote\app\src\main\AndroidManifest.xml:27:9-35:20
+58            android:name="com.uniremote.ui.DevicesActivity"
+58-->C:\remote\app\src\main\AndroidManifest.xml:28:13-47
+59            android:exported="true"
+59-->C:\remote\app\src\main\AndroidManifest.xml:29:13-36
+60            android:launchMode="singleTask" >
+60-->C:\remote\app\src\main\AndroidManifest.xml:30:13-44
+61            <intent-filter>
+61-->C:\remote\app\src\main\AndroidManifest.xml:31:13-34:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->C:\remote\app\src\main\AndroidManifest.xml:32:17-69
+62-->C:\remote\app\src\main\AndroidManifest.xml:32:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->C:\remote\app\src\main\AndroidManifest.xml:33:17-77
+64-->C:\remote\app\src\main\AndroidManifest.xml:33:27-74
+65            </intent-filter>
+66        </activity>
+67        <activity
+67-->C:\remote\app\src\main\AndroidManifest.xml:36:9-40:70
+68            android:name="com.uniremote.ui.RemoteActivity"
+68-->C:\remote\app\src\main\AndroidManifest.xml:37:13-46
+69            android:exported="false"
+69-->C:\remote\app\src\main\AndroidManifest.xml:38:13-37
+70            android:launchMode="singleTask"
+70-->C:\remote\app\src\main\AndroidManifest.xml:39:13-44
+71            android:windowSoftInputMode="adjustResize|stateHidden" />
+71-->C:\remote\app\src\main\AndroidManifest.xml:40:13-67
+72        <activity
+72-->C:\remote\app\src\main\AndroidManifest.xml:41:9-43:40
+73            android:name="com.uniremote.ui.SettingsActivity"
+73-->C:\remote\app\src\main\AndroidManifest.xml:42:13-48
+74            android:exported="false" /> <!-- Settings › Shortcuts and Settings › Remote guide. -->
+74-->C:\remote\app\src\main\AndroidManifest.xml:43:13-37
+75        <activity
+75-->C:\remote\app\src\main\AndroidManifest.xml:45:9-47:40
+76            android:name="com.uniremote.ui.ShortcutsActivity"
+76-->C:\remote\app\src\main\AndroidManifest.xml:46:13-49
+77            android:exported="false" />
+77-->C:\remote\app\src\main\AndroidManifest.xml:47:13-37
+78        <activity
+78-->C:\remote\app\src\main\AndroidManifest.xml:48:9-50:40
+79            android:name="com.uniremote.ui.RemoteGuideActivity"
+79-->C:\remote\app\src\main\AndroidManifest.xml:49:13-51
+80            android:exported="false" /> <!-- "Send to TV" in other apps' share menus. Shared files come as content URIs: no storage permission. -->
+80-->C:\remote\app\src\main\AndroidManifest.xml:50:13-37
+81        <activity
+81-->C:\remote\app\src\main\AndroidManifest.xml:52:9-63:20
+82            android:name="com.uniremote.ui.SendActivity"
+82-->C:\remote\app\src\main\AndroidManifest.xml:53:13-44
+83            android:exported="true"
+83-->C:\remote\app\src\main\AndroidManifest.xml:54:13-36
+84            android:label="@string/send_share_label"
+84-->C:\remote\app\src\main\AndroidManifest.xml:55:13-53
+85            android:theme="@style/Theme.Libremote.Floating" >
+85-->C:\remote\app\src\main\AndroidManifest.xml:56:13-60
+86            <intent-filter>
+86-->C:\remote\app\src\main\AndroidManifest.xml:57:13-62:29
+87                <action android:name="android.intent.action.SEND" />
+87-->C:\remote\app\src\main\AndroidManifest.xml:58:17-69
+87-->C:\remote\app\src\main\AndroidManifest.xml:58:25-66
+88                <action android:name="android.intent.action.SEND_MULTIPLE" />
+88-->C:\remote\app\src\main\AndroidManifest.xml:59:17-78
+88-->C:\remote\app\src\main\AndroidManifest.xml:59:25-75
+89
+90                <category android:name="android.intent.category.DEFAULT" />
+90-->C:\remote\app\src\main\AndroidManifest.xml:60:17-76
+90-->C:\remote\app\src\main\AndroidManifest.xml:60:27-73
+91
+92                <data android:mimeType="*/*" />
+92-->C:\remote\app\src\main\AndroidManifest.xml:61:17-48
+92-->C:\remote\app\src\main\AndroidManifest.xml:61:23-45
+93            </intent-filter>
+94        </activity> <!-- Send files: keeps a batch going with a notification. -->
+95        <service
+95-->C:\remote\app\src\main\AndroidManifest.xml:66:9-69:56
+96            android:name="com.uniremote.ui.SendService"
+96-->C:\remote\app\src\main\AndroidManifest.xml:67:13-43
+97            android:exported="false"
+97-->C:\remote\app\src\main\AndroidManifest.xml:68:13-37
+98            android:foregroundServiceType="dataSync" />
+98-->C:\remote\app\src\main\AndroidManifest.xml:69:13-53
+99    </application>
+100
+101</manifest>

@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <bool name="light_bars">false</bool>
-    <color name="accent">#FFFF8A3D</color>
-    <color name="accent_container">#FF7A3500</color>
-    <color name="bg">#FF14161C</color>
+    <color name="accent">#FFE50914</color>
+    <color name="accent_container">#FF60080C</color>
+    <color name="bg">#FF121212</color>
+    <color name="brand">#FFE50914</color>
     <color name="error">#FFF28B82</color>
     <color name="ok">#FF7BD88F</color>
-    <color name="on_accent">#FF2E1200</color>
-    <color name="on_accent_container">#FFFFDCC8</color>
-    <color name="on_surface">#FFF2F3F5</color>
-    <color name="on_surface_muted">#FFA7ACB8</color>
+    <color name="on_accent">#FFFFFFFF</color>
+    <color name="on_accent_container">#FFFFD8D8</color>
+    <color name="on_surface">#FFF5F5F5</color>
+    <color name="on_surface_muted">#FFA6A6A6</color>
     <color name="ripple">#33FFFFFF</color>
     <color name="scrim">#99000000</color>
-    <color name="surface">#FF1F222B</color>
-    <color name="surface_high">#FF2B2F3A</color>
+    <color name="surface">#FF1E1E1E</color>
+    <color name="surface_high">#FF2B2B2B</color>
     <color name="warn">#FFF5B971</color>
     <style name="Theme.Libremote" parent="@android:style/Theme.Material.NoActionBar">
         <item name="android:windowBackground">@color/bg</item>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Bottom volume bar used in Simple mode, just above the navigation circle buttons. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/volumeRowBottom"
+    style="@style/Libremote.KeyRow"
+    android:layout_width="wrap_content"
+    android:layout_height="48dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="6dp"
+    android:layout_marginBottom="6dp"
+    android:orientation="horizontal"
+    android:visibility="gone">
+
+    <ImageButton
+        android:id="@+id/volDownBottom"
+        style="@style/Libremote.ExtraKey"
+        android:layout_width="56dp"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/key_volume_down"
+        android:src="@drawable/ic_volume_down" />
+
+    <ImageButton
+        android:id="@+id/volMuteBottom"
+        style="@style/Libremote.ExtraKey"
+        android:layout_width="56dp"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/key_mute"
+        android:src="@drawable/ic_volume_off" />
+
+    <ImageButton
+        android:id="@+id/volUpBottom"
+        style="@style/Libremote.ExtraKey"
+        android:layout_width="56dp"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/key_volume_up"
+        android:src="@drawable/ic_volume_up" />
+
+    <ImageButton
+        android:id="@+id/searchBottom"
+        style="@style/Libremote.ExtraKey"
+        android:layout_width="56dp"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/key_search"
+        android:src="@drawable/ic_search" />
+</LinearLayout>

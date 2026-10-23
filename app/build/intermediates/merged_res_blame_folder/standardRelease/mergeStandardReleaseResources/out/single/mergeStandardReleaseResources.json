@@ -1,0 +1,402 @@
+[
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/layout_remote_volume_row.xml.flat",
+        "source": "com.uniremote.app-main-5:/layout/remote_volume_row.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_upload.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_upload.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_tv.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_tv.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_arrow_range.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_arrow_range.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/layout_remote_media_row.xml.flat",
+        "source": "com.uniremote.app-main-5:/layout/remote_media_row.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_bg_round_accent.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/bg_round_accent.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_settings.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_power_settings_new.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_power_settings_new.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/layout_dialog_update.xml.flat",
+        "source": "com.uniremote.app-standard-7:/layout/dialog_update.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_bg_button.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/bg_button.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/layout_activity_settings.xml.flat",
+        "source": "com.uniremote.app-main-5:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_settings_remote.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_settings_remote.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_menu_book.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_menu_book.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_volume_up.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_volume_up.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/layout_activity_remote.xml.flat",
+        "source": "com.uniremote.app-main-5:/layout/activity_remote.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/layout_activity_send.xml.flat",
+        "source": "com.uniremote.app-main-5:/layout/activity_send.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_volume_off.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_volume_off.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_bug_report.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_bug_report.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/layout_activity_remote_guide.xml.flat",
+        "source": "com.uniremote.app-main-5:/layout/activity_remote_guide.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_bg_preview.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/bg_preview.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_gamepad.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_gamepad.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_bg_banner.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/bg_banner.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_input.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_input.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/layout_dialog_pair.xml.flat",
+        "source": "com.uniremote.app-main-5:/layout/dialog_pair.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/layout_remote_pad.xml.flat",
+        "source": "com.uniremote.app-main-5:/layout/remote_pad.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_close.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_close.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_upload_file.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_upload_file.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_more_vert.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_more_vert.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_live_tv.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_live_tv.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/xml_data_extraction_rules.xml.flat",
+        "source": "com.uniremote.app-main-5:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_keyboard_hide.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_keyboard_hide.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/layout_item_tv.xml.flat",
+        "source": "com.uniremote.app-main-5:/layout/item_tv.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_bg_pill.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/bg_pill.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/anim_sheet_in.xml.flat",
+        "source": "com.uniremote.app-main-5:/anim/sheet_in.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_refresh.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_refresh.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_drag_indicator.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_drag_indicator.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/layout_remote_keyboard_bar.xml.flat",
+        "source": "com.uniremote.app-main-5:/layout/remote_keyboard_bar.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_fast_forward.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_fast_forward.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_keyboard.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_keyboard.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_bg_segment_selected.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/bg_segment_selected.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_bg_dot.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/bg_dot.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_fast_rewind.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_fast_rewind.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_volume_down.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_volume_down.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_info.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_info.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_closed_caption.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_closed_caption.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_youtube.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_youtube.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_menu.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_menu.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_channels.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_channels.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_arrow_back.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_arrow_back.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_check.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_check.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_bg_pill_button.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/bg_pill_button.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_search.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_bg_text_button.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/bg_text_button.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_bg_dialog.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/bg_dialog.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/layout-land_activity_remote.xml.flat",
+        "source": "com.uniremote.app-main-5:/layout-land/activity_remote.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_bg_borderless.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/bg_borderless.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_swipe.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_swipe.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/layout_remote_nav_row.xml.flat",
+        "source": "com.uniremote.app-main-5:/layout/remote_nav_row.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_home.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_backspace.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_backspace.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/layout_activity_shortcuts.xml.flat",
+        "source": "com.uniremote.app-main-5:/layout/activity_shortcuts.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_wifi_off.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_wifi_off.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/layout_remote_banner.xml.flat",
+        "source": "com.uniremote.app-main-5:/layout/remote_banner.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_skip_next.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_skip_next.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_info_small.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_info_small.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_edit.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_edit.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_add.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_remove.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_remove.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/layout_dialog_text_input.xml.flat",
+        "source": "com.uniremote.app-main-5:/layout/dialog_text_input.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_chevron_right.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_chevron_right.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_delete.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_bg_hud.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/bg_hud.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/anim_sheet_out.xml.flat",
+        "source": "com.uniremote.app-main-5:/anim/sheet_out.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_bg_button_tonal.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/bg_button_tonal.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_apps.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_apps.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_play_pause.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_play_pause.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_expand_more.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_expand_more.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/layout_remote_mode_toggle.xml.flat",
+        "source": "com.uniremote.app-main-5:/layout/remote_mode_toggle.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_sync.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_sync.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_bg_code_box.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/bg_code_box.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_remote.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_remote.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_link_off.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_link_off.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/layout_remote_volume_hud.xml.flat",
+        "source": "com.uniremote.app-main-5:/layout/remote_volume_hud.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_bg_round.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/bg_round.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_tv_settings.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_tv_settings.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.uniremote.app-main-5:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_bg_segment_item.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/bg_segment_item.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_bg_field.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/bg_field.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_keyboard_return.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_keyboard_return.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/layout_activity_devices.xml.flat",
+        "source": "com.uniremote.app-main-5:/layout/activity_devices.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_bg_list_row.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/bg_list_row.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_progress_volume.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/progress_volume.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_restart_alt.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_restart_alt.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_update.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_update.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/layout_remote_top_bar.xml.flat",
+        "source": "com.uniremote.app-main-5:/layout/remote_top_bar.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_bg_segment.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/bg_segment.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_bg_sheet.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/bg_sheet.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_bg_card.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/bg_card.xml"
+    },
+    {
+        "merged": "com.uniremote.app-standardRelease-4:/drawable_ic_skip_previous.xml.flat",
+        "source": "com.uniremote.app-main-5:/drawable/ic_skip_previous.xml"
+    }
+]

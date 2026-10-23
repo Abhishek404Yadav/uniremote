@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.uniremote.app-mergeStandardReleaseResources-1:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "C:\\remote\\app\\src\\main\\res\\values-night\\bools.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "40",
+                        "endOffsets": "93"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "40",
+                        "endOffsets": "91"
+                    }
+                },
+                {
+                    "source": "C:\\remote\\app\\src\\main\\res\\values-night\\colors.xml",
+                    "from": {
+                        "startLines": "9,11,4,3,15,13,10,12,7,8,17,16,5,6,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "388,479,151,108,672,590,432,533,286,334,758,715,191,236,630",
+                        "endColumns": "42,52,38,41,41,38,45,55,46,52,42,41,43,48,40",
+                        "endOffsets": "426,527,185,145,709,624,473,584,328,382,796,752,230,280,666"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "96,139,192,231,273,315,354,400,456,503,556,599,641,685,734",
+                        "endColumns": "42,52,38,41,41,38,45,55,46,52,42,41,43,48,40",
+                        "endOffsets": "134,187,226,268,310,349,395,451,498,551,594,636,680,729,770"
+                    }
+                },
+                {
+                    "source": "C:\\remote\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "2,19,31,41",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "57,1170,1984,2608",
+                        "endLines": "17,28,39,49",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "1162,1866,2600,3214"
+                    },
+                    "to": {
+                        "startLines": "18,34,44,53",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "775,1870,2562,3175",
+                        "endLines": "33,43,52,61",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "1865,2557,3170,3773"
+                    }
+                }
+            ]
+        }
+    ]
+}

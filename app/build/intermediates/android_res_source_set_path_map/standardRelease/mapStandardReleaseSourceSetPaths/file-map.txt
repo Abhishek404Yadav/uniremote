@@ -1,0 +1,11 @@
+com.uniremote.app-standard-0 C:\remote\app\build\generated\res\pngs\standard\release
+com.uniremote.app-updated_navigation_xml-1 C:\remote\app\build\generated\updated_navigation_xml\standardRelease
+com.uniremote.app-packageStandardReleaseResources-2 C:\remote\app\build\intermediates\incremental\standardRelease\packageStandardReleaseResources\merged.dir
+com.uniremote.app-packageStandardReleaseResources-3 C:\remote\app\build\intermediates\incremental\standardRelease\packageStandardReleaseResources\stripped.dir
+com.uniremote.app-standard-4 C:\remote\app\build\intermediates\merged-not-compiled-resources\standard\release
+com.uniremote.app-standardRelease-5 C:\remote\app\build\intermediates\merged_res\standardRelease\mergeStandardReleaseResources
+com.uniremote.app-main-6 C:\remote\app\src\main\res
+com.uniremote.app-release-7 C:\remote\app\src\release\res
+com.uniremote.app-standard-8 C:\remote\app\src\standard\res
+com.uniremote.app-standardRelease-9 C:\remote\app\src\standardRelease\res
+gradleHome-0 C:\Users\Abhishek Yadav\.gradle

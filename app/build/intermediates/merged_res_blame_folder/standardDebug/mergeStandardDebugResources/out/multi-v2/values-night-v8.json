@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.uniremote.app-mergeStandardDebugResources-1:/values-night-v8/values-night-v8.xml",
+            "outputFile": "C:\\Users\\Abhishek Yadav\\.gradle\\daemon\\9.8.1\\com.uniremote.app-mergeStandardDebugResources-1:\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\remote\\app\\src\\main\\res\\values-night\\bools.xml",
@@ -54,6 +54,59 @@
                         "endLines": "32,42,51,60",
                         "endColumns": "12,12,12,12",
                         "endOffsets": "1823,2515,3128,3731"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.uniremote.app-mergeStandardDebugResources-1:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "C:\\remote\\app\\src\\main\\res\\values-night\\bools.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "40",
+                        "endOffsets": "91"
+                    }
+                },
+                {
+                    "source": "C:\\remote\\app\\src\\main\\res\\values-night\\colors.xml",
+                    "from": {
+                        "startLines": "9,11,4,3,-1,-1,10,12,7,8,-1,-1,5,6,-1",
+                        "startColumns": "4,4,4,4,-1,-1,4,4,4,4,-1,-1,4,4,-1",
+                        "startOffsets": "388,479,151,108,-1,-1,432,533,286,334,-1,-1,191,236,-1",
+                        "endColumns": "42,52,38,41,-1,-1,45,55,46,52,-1,-1,43,48,-1",
+                        "endOffsets": "426,527,185,145,-1,-1,473,584,328,382,-1,-1,230,280,-1"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "96,139,192,231,273,315,354,400,456,503,556,599,641,685,734",
+                        "endColumns": "42,52,38,41,41,38,45,55,46,52,42,41,43,48,40",
+                        "endOffsets": "134,187,226,268,310,349,395,451,498,551,594,636,680,729,770"
+                    }
+                },
+                {
+                    "source": "C:\\remote\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "18,34,44,53",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "775,1870,2562,3175",
+                        "endLines": "33,43,52,61",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "1865,2557,3170,3773"
                     }
                 }
             ]
