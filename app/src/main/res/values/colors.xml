@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bravia_black">#0F1015</color>
+    <color name="bravia_surface">#181A20</color>
+    <color name="bravia_card">#222630</color>
+    <color name="bravia_accent">#3D82F6</color>
+    <color name="bravia_red">#EF4444</color>
+    <color name="bravia_green">#10B981</color>
+    <color name="bravia_text_primary">#F3F4F6</color>
+    <color name="bravia_text_secondary">#9CA3AF</color>
+</resources>

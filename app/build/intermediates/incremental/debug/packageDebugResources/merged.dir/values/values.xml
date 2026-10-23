@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bravia_accent">#3D82F6</color>
+    <color name="bravia_black">#0F1015</color>
+    <color name="bravia_card">#222630</color>
+    <color name="bravia_green">#10B981</color>
+    <color name="bravia_red">#EF4444</color>
+    <color name="bravia_surface">#181A20</color>
+    <color name="bravia_text_primary">#F3F4F6</color>
+    <color name="bravia_text_secondary">#9CA3AF</color>
+    <string name="app_name">Sony Bravia Remote</string>
+    <string name="back">Back</string>
+    <string name="channel_down">CH -</string>
+    <string name="channel_up">CH +</string>
+    <string name="connect_tv">Connect TV</string>
+    <string name="connected">Connected</string>
+    <string name="connecting">Connecting…</string>
+    <string name="default_psk">1234</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="home">Home</string>
+    <string name="input">Input</string>
+    <string name="ip_label">TV IP Address</string>
+    <string name="mute">Mute</string>
+    <string name="numpad">123</string>
+    <string name="power">Power</string>
+    <string name="psk_label">Pre-Shared Key (PSK)</string>
+    <string name="searching_tvs">Scanning for Sony TVs…</string>
+    <string name="settings">Settings</string>
+    <string name="volume_down">Vol -</string>
+    <string name="volume_up">Vol +</string>
+    <style name="Theme.BraviaRemote" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">#0F1015</item>
+        <item name="android:navigationBarColor">#0F1015</item>
+        <item name="android:windowBackground">#0F1015</item>
+    </style>
+</resources>

@@ -1,0 +1,48 @@
+com.sony.braviaremote.app-core-ktx-1.13.1-0 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\00e67f677fdf642d7a6aa205de06b3c7\transformed\core-ktx-1.13.1\res
+com.sony.braviaremote.app-ui-util-release-1 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\0b11c79874167ba6bfc693a7ae4961cb\transformed\ui-util-release\res
+com.sony.braviaremote.app-emoji2-1.3.0-2 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\10dcfdf04cda6bb6b4624fa73f30acbb\transformed\emoji2-1.3.0\res
+com.sony.braviaremote.app-animation-core-release-3 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\15b1bbf851b7efdaf01447e6d572e693\transformed\animation-core-release\res
+com.sony.braviaremote.app-startup-runtime-1.1.1-4 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\18d95d64bc7bcb96f595f8ed02c5a8f5\transformed\startup-runtime-1.1.1\res
+com.sony.braviaremote.app-ui-tooling-release-5 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\19ece79f4fb937e5f3b90b6414b7294b\transformed\ui-tooling-release\res
+com.sony.braviaremote.app-activity-ktx-1.9.0-6 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\1c32890aa925bcb882bca01534ee9770\transformed\activity-ktx-1.9.0\res
+com.sony.braviaremote.app-material-release-7 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\1fc0fa91a438da59d172aa67f069e35e\transformed\material-release\res
+com.sony.braviaremote.app-customview-poolingcontainer-1.0.0-8 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\216cb5e1766bdcd84b8951f3fe54f60a\transformed\customview-poolingcontainer-1.0.0\res
+com.sony.braviaremote.app-ui-test-manifest-1.6.7-9 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\2f8d1a17ff4f2aa99b770bce6bb8b052\transformed\ui-test-manifest-1.6.7\res
+com.sony.braviaremote.app-ui-geometry-release-10 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\2fb85adfed881bab945d997c431b44da\transformed\ui-geometry-release\res
+com.sony.braviaremote.app-lifecycle-runtime-release-11 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\313937ef52e52b10af97c4ba9e84ed1b\transformed\lifecycle-runtime-release\res
+com.sony.braviaremote.app-material-icons-core-release-12 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\340e454ab7cf4e6ee4755f612b36d77e\transformed\material-icons-core-release\res
+com.sony.braviaremote.app-ui-release-13 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\3571e6c069f67a0b09fc632ac2ce4024\transformed\ui-release\res
+com.sony.braviaremote.app-lifecycle-viewmodel-ktx-2.8.0-14 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\42e7834fa91c0c9bea55df965d90e28b\transformed\lifecycle-viewmodel-ktx-2.8.0\res
+com.sony.braviaremote.app-ui-tooling-preview-release-15 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\43a881334ee3ab2c1762703b13d6627b\transformed\ui-tooling-preview-release\res
+com.sony.braviaremote.app-activity-1.9.0-16 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\44d3b85040a789de5c9b42755513c0b3\transformed\activity-1.9.0\res
+com.sony.braviaremote.app-core-1.13.1-17 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\5a77dee4cf2cf87eae9dd49fc41985d9\transformed\core-1.13.1\res
+com.sony.braviaremote.app-material3-release-18 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\5fd2a7899c9ac71fa7df28904287c730\transformed\material3-release\res
+com.sony.braviaremote.app-lifecycle-viewmodel-release-19 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\6506415e9fcaeff80e90322c1c032f83\transformed\lifecycle-viewmodel-release\res
+com.sony.braviaremote.app-profileinstaller-1.3.1-20 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\6934391db2a25169033d1d60745e885f\transformed\profileinstaller-1.3.1\res
+com.sony.braviaremote.app-lifecycle-runtime-ktx-release-21 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\6dae7234ec7e2331f5117bcedf7ece67\transformed\lifecycle-runtime-ktx-release\res
+com.sony.braviaremote.app-lifecycle-viewmodel-compose-release-22 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\7e52230b112ac0139c9be78af6ef470b\transformed\lifecycle-viewmodel-compose-release\res
+com.sony.braviaremote.app-runtime-saveable-release-23 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\8933f206404ab874d5a43b78e10cefd0\transformed\runtime-saveable-release\res
+com.sony.braviaremote.app-ui-unit-release-24 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\8b3724d82db062ed92f03557663b7e51\transformed\ui-unit-release\res
+com.sony.braviaremote.app-core-runtime-2.2.0-25 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\9e869d3e54ae919cb88f702589e6f055\transformed\core-runtime-2.2.0\res
+com.sony.braviaremote.app-activity-compose-1.9.0-26 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\a02a19044ffa19a308fc76e03cb63d84\transformed\activity-compose-1.9.0\res
+com.sony.braviaremote.app-ui-graphics-release-27 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\ad66d7b627526b3c1d6cc66db8c86f61\transformed\ui-graphics-release\res
+com.sony.braviaremote.app-annotation-experimental-1.4.0-28 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\bb97fc642c8e6f666362083727efbbc8\transformed\annotation-experimental-1.4.0\res
+com.sony.braviaremote.app-material-ripple-release-29 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\c15bbba4f1b8f3564f42b4d830d85fb2\transformed\material-ripple-release\res
+com.sony.braviaremote.app-lifecycle-process-2.8.0-30 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\cdf65d13ab620105b793e7b70054ec51\transformed\lifecycle-process-2.8.0\res
+com.sony.braviaremote.app-animation-release-31 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\d26fec6e06ca200bbe0cbf37b8e574c7\transformed\animation-release\res
+com.sony.braviaremote.app-lifecycle-livedata-core-2.8.0-32 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\d762f68864300d696818234a6131a062\transformed\lifecycle-livedata-core-2.8.0\res
+com.sony.braviaremote.app-foundation-release-33 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\dbf8e9e3d06437c481634c4d373faf77\transformed\foundation-release\res
+com.sony.braviaremote.app-lifecycle-viewmodel-savedstate-2.8.0-34 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\dcf37605a4bbea791555b51042cf76e6\transformed\lifecycle-viewmodel-savedstate-2.8.0\res
+com.sony.braviaremote.app-ui-tooling-data-release-35 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\e0fb1d3d430bd666f2c57e399e189333\transformed\ui-tooling-data-release\res
+com.sony.braviaremote.app-foundation-layout-release-36 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\e54edbb742f28471b576e22f4cc36476\transformed\foundation-layout-release\res
+com.sony.braviaremote.app-runtime-release-37 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\e8648cfffafa24f0b53dc9699b466eea\transformed\runtime-release\res
+com.sony.braviaremote.app-ui-text-release-38 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\ef532b881b5a55fc56ecf20c15782aa9\transformed\ui-text-release\res
+com.sony.braviaremote.app-savedstate-ktx-1.2.1-39 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\f5695f5e6468aeb849623c8707c462c4\transformed\savedstate-ktx-1.2.1\res
+com.sony.braviaremote.app-savedstate-1.2.1-40 C:\Users\Abhishek Yadav\.gradle\caches\8.13\transforms\fa4650907f53d89501580959f34e3859\transformed\savedstate-1.2.1\res
+com.sony.braviaremote.app-resValues-41 C:\remote\app\build\generated\res\resValues\debug
+com.sony.braviaremote.app-updated_navigation_xml-42 C:\remote\app\build\generated\updated_navigation_xml\debug
+com.sony.braviaremote.app-packageDebugResources-43 C:\remote\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.sony.braviaremote.app-packageDebugResources-44 C:\remote\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.sony.braviaremote.app-debug-45 C:\remote\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.sony.braviaremote.app-debug-46 C:\remote\app\src\debug\res
+com.sony.braviaremote.app-main-47 C:\remote\app\src\main\res
