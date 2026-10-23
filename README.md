@@ -2,7 +2,7 @@
 
 A private phone remote for Android TV and Google TV. On the phone it is called UniRemote.
 
-![UniRemote's remote in Full mode, with the extra keys above the D-pad and app shortcuts below](app/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png)
+![UniRemote in Simple remote mode with Netflix Red theme](app/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png)
 
 UniRemote pairs with your TV the way Google's own remote app does, with the code the TV shows, but it has no
 account, no ads, no analytics and no crash reporting. It talks only to your TV, over your Wi-Fi.
@@ -38,16 +38,15 @@ or for a moment when UniRemote opens an app or fetches the app list. It needs An
 [what pairing covers](SENDFILES.md#in-short-what-pairing-with-the-receiver-covers) (opening apps goes through the TV's
 own pairing instead).
 
-## Install
+## Download & Install
 
-Download from the [latest release](https://github.com/Abhishek404Yadav/uniremote/releases/latest):
+📥 **[Download Latest UniRemote APK (v1.0.0)](release/uniremote.apk?raw=true)**
 
-- `uniremote-<version>.apk` on the phone. Open it from the Files app; Android asks once to allow installs from it.
-- `uniremote-receiver-<version>.apk` on the TV, if you want it: copy it on a USB stick and open it with a file
-  manager, or run `adb install uniremote-receiver-<version>.apk`.
+- **Phone App:** Download [`release/uniremote.apk`](release/uniremote.apk?raw=true) directly to your phone. Open it from the Files app; Android will prompt once to allow installs.
+- **GitHub Releases:** Available under [Releases](https://github.com/Abhishek404Yadav/uniremote/releases).
+- **TV Receiver (Optional):** Needed for sending files to TV.
 
-If Play Protect says "App blocked to protect your device", choose **More details → Install anyway**. It says this
-about apps from developers it hasn't seen before.
+If Play Protect says "App blocked to protect your device", tap **More details → Install anyway**.
 
 Then open UniRemote: your TV appears under Nearby. Tap it and type the code the TV shows.
 
