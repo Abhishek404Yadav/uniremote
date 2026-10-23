@@ -23,8 +23,8 @@ val releaseKey: Map<String, String?> = run {
 val hasReleaseKey = releaseKey.values.all { !it.isNullOrBlank() }
 if (!hasReleaseKey) logger.lifecycle("Libremote: no release key configured; release builds are signed with the debug key.")
 
-/** Libremote's GitHub repository: its releases (updates) and its issues (Settings › Report a problem). */
-val repository = "sonalder-darlene/libremote-android-tv"
+/** UniRemote's GitHub repository: its releases (updates) and its issues (Settings › Report a problem). */
+val repository = "Abhishek404Yadav/uniremote"
 /** Where the standard build looks for updates; -Plibremote.updateUrl=… points a test build (or a fork) elsewhere. */
 val updateUrl: String = providers.gradleProperty("libremote.updateUrl")
     .getOrElse("https://api.github.com/repos/$repository/releases/latest")

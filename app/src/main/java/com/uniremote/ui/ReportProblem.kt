@@ -66,7 +66,8 @@ class ReportProblem(private val activity: Activity) {
     private fun details(): String {
         val app = activity.libremote
         val lines = mutableListOf<String>()
-        lines += "Libremote ${BuildConfig.VERSION_NAME} (${BuildConfig.VERSION_CODE}, ${BuildConfig.FLAVOR})"
+        lines += "UniRemote ${BuildConfig.VERSION_NAME} (${BuildConfig.VERSION_CODE}, ${BuildConfig.FLAVOR})"
+        lines += "Repository: ${BuildConfig.ISSUES_URL}"
         val metrics = activity.resources.displayMetrics
         lines += "Android ${Build.VERSION.RELEASE} (API ${Build.VERSION.SDK_INT}), " +
             "${(metrics.widthPixels / metrics.density).toInt()} × ${(metrics.heightPixels / metrics.density).toInt()} dp"
@@ -82,7 +83,7 @@ class ReportProblem(private val activity: Activity) {
                 lines += "TV: $model, Android ${info.osVersion ?: "?"}"
                 lines += "Remote service ${info.serviceVersion ?: "?"} (${info.servicePackage ?: "?"})"
             }
-            lines += "Libremote Receiver: " + when (app.receivers.state(tv)) {
+            lines += "UniRemote Receiver: " + when (app.receivers.state(tv)) {
                 ReceiverState.PRESENT -> app.receivers.versionName(tv) ?: "older than 1.0.0"
                 ReceiverState.ABSENT -> "not found"
                 ReceiverState.UNKNOWN -> "not seen yet"

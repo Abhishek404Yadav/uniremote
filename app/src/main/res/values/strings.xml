@@ -498,9 +498,9 @@
 
     <!-- Settings › Report a problem -->
     <string name="settings_report">Report a problem</string>
-    <string name="settings_report_summary">On UniRemote\'s GitHub page</string>
+    <string name="settings_report_summary">github.com/Abhishek404Yadav/uniremote</string>
     <string name="report_title">Report a problem</string>
-    <string name="report_text">Open GitHub to describe what happened (it needs a GitHub account). These details help: copy them and paste them in if you like. Nothing is sent from the app.</string>
+    <string name="report_text">Open GitHub to report an issue or suggest a feature:\nhttps://github.com/Abhishek404Yadav/uniremote/issues\n\nThese details help: copy them and paste them in if you like. Nothing is sent from the app.</string>
     <string name="report_copy">Copy details</string>
     <string name="report_open">Open GitHub</string>
     <string name="report_copied">Details copied</string>

@@ -1,17 +1,16 @@
-# Libremote for Android TV
+# UniRemote for Android TV
 
-A private phone remote for Android TV and Google TV. On the phone it is called Libremote.
+A private phone remote for Android TV and Google TV. On the phone it is called UniRemote.
 
-![Libremote's remote in Full mode, with the extra keys above the D-pad and app shortcuts below](app/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png)
+![UniRemote's remote in Full mode, with the extra keys above the D-pad and app shortcuts below](app/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png)
 
-Libremote pairs with your TV the way Google's own remote app does, with the code the TV shows, but it has no
+UniRemote pairs with your TV the way Google's own remote app does, with the code the TV shows, but it has no
 account, no ads, no analytics and no crash reporting. It talks only to your TV, over your Wi-Fi.
 
-- **Three ways to steer:** Full, D-pad or touchpad. Hold any button for the TV's long press, hold an arrow to scroll.
+- **Four ways to steer:** Simple Remote, Full, D-pad or touchpad. Hold any button for the TV's long press, hold an arrow to scroll.
   Full adds keys for search, captions, info, apps, guide, TV settings and input, and a swipe strip.
 - **Typing:** when a text field opens on the TV, the phone's keyboard opens and the text appears as you type.
-- **Volume on the left**, or the phone's own volume buttons. **Channels or apps on the right**: Channel +, Menu and
-  Channel − on a TV; Search, Menu and Apps on a streaming box such as a Shield or a Chromecast.
+- **Volume and navigation:** Quick volume control, mute, directional keys, and dedicated app shortcuts.
 - **Playback, power, Back and Home**, and **Find my remote** on TVs whose remote can beep.
 - **App shortcuts for each TV**, learned from the apps you open there, most used first. Pin, rename, hide or add
   apps; text, icons or tiles in three sizes and up to three rows.
@@ -19,44 +18,44 @@ account, no ads, no analytics and no crash reporting. It talks only to your TV, 
 - **Several TVs**, About this TV, a Remote guide that names every button, light and dark themes, a themed icon on
   Android 13 and later, TalkBack support.
 
-Libremote needs Android 8.0 or later. It works with TVs that run Google's Android TV Remote Service, which Google
+UniRemote needs Android 8.0 or later. It works with TVs that run Google's Android TV Remote Service, which Google
 TV and certified Android TV devices include.
 
-## Libremote Receiver, on the TV
+## UniRemote Receiver, on the TV
 
 A small companion app for the TV, needed only for some things:
 
-- **Sending files.** Photos, videos, APKs or anything else go to Download/Libremote on the TV. Select an APK to
+- **Sending files.** Photos, videos, APKs or anything else go to Download/UniRemote on the TV. Select an APK to
   install it.
 - **Opening any app from a shortcut** on TVs without the Play Store. With the Play Store, shortcuts work without it.
-- **Real names and icons** for the TV's apps in Libremote's shortcut settings.
+- **Real names and icons** for the TV's apps in UniRemote's shortcut settings.
 
-It accepts only your phones: the first time Libremote opens it from a phone, the TV asks whether to allow that
+It accepts only your phones: the first time UniRemote opens it from a phone, the TV asks whether to allow that
 phone, showing a code your phone shows too. A phone you remove in its Settings stays removed until you allow it
 again. Everything between them is encrypted with both ends authenticated. It listens only while its screen is open,
-or for a moment when Libremote opens an app or fetches the app list. It needs Android TV 8.0 or later.
+or for a moment when UniRemote opens an app or fetches the app list. It needs Android TV 8.0 or later.
 [SENDFILES.md](SENDFILES.md) explains the pairing, the encryption, what they protect against, and
 [what pairing covers](SENDFILES.md#in-short-what-pairing-with-the-receiver-covers) (opening apps goes through the TV's
 own pairing instead).
 
 ## Install
 
-Download from the [latest release](https://github.com/sonalder-darlene/libremote-android-tv/releases/latest):
+Download from the [latest release](https://github.com/Abhishek404Yadav/uniremote/releases/latest):
 
-- `libremote-<version>.apk` on the phone. Open it from the Files app; Android asks once to allow installs from it.
-- `libremote-receiver-<version>.apk` on the TV, if you want it: copy it on a USB stick and open it with a file
-  manager, or run `adb install libremote-receiver-<version>.apk`.
+- `uniremote-<version>.apk` on the phone. Open it from the Files app; Android asks once to allow installs from it.
+- `uniremote-receiver-<version>.apk` on the TV, if you want it: copy it on a USB stick and open it with a file
+  manager, or run `adb install uniremote-receiver-<version>.apk`.
 
 If Play Protect says "App blocked to protect your device", choose **More details → Install anyway**. It says this
 about apps from developers it hasn't seen before.
 
-Then open Libremote: your TV appears under Nearby. Tap it and type the code the TV shows.
+Then open UniRemote: your TV appears under Nearby. Tap it and type the code the TV shows.
 
 ## Updates
 
-Libremote can check GitHub for new versions of itself and of Libremote Receiver, from Settings. Automatic checks
-are off until you turn them on, and nothing installs without your confirmation: on the phone for Libremote, on
-the TV for the receiver, which Libremote sends over the encrypted connection.
+UniRemote can check GitHub for new versions of itself and of UniRemote Receiver, from Settings. Automatic checks
+are off until you turn them on, and nothing installs without your confirmation: on the phone for UniRemote, on
+the TV for the receiver, which UniRemote sends over the encrypted connection.
 
 Copies installed by an app store never offer this; the store keeps them up to date.
 

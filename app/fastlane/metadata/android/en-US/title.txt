@@ -1,1 +1,1 @@
-Libremote for Android TV
+UniRemote for Android TV
