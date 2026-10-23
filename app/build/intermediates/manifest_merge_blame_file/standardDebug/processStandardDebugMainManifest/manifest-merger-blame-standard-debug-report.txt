@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="app.libremotetvservice"
+3    package="com.uniremote"
 4    android:versionCode="10000"
 5    android:versionName="1.0.0" >
 6
@@ -16,161 +16,161 @@
 13         confirm each one. Only in this build: the Google Play build has no updater.
 14    -->
 15    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
-15-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\standard\AndroidManifest.xml:6:5-83
-15-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\standard\AndroidManifest.xml:6:22-80
+15-->C:\remote\app\src\standard\AndroidManifest.xml:6:5-83
+15-->C:\remote\app\src\standard\AndroidManifest.xml:6:22-80
 16    <!--
 17     Sockets to TVs on the local network: the remote, and Libremote Receiver on the TV. Libremote talks to nothing
 18         else, except github.com in the standard build when the user checks for updates (src/standard).
 19    -->
 20    <uses-permission android:name="android.permission.INTERNET" />
-20-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:7:5-67
-20-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:7:22-64
+20-->C:\remote\app\src\main\AndroidManifest.xml:7:5-67
+20-->C:\remote\app\src\main\AndroidManifest.xml:7:22-64
 21    <!--
 22 Send files: a batch keeps going in the background, in a data-sync foreground service with a progress
 23         notification. Android 13+ asks before showing notifications, on the first send; sending works without.
 24    -->
 25    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-25-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:11:5-77
-25-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:11:22-74
+25-->C:\remote\app\src\main\AndroidManifest.xml:11:5-77
+25-->C:\remote\app\src\main\AndroidManifest.xml:11:22-74
 26    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
-26-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:12:5-87
-26-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:12:22-84
+26-->C:\remote\app\src\main\AndroidManifest.xml:12:5-87
+26-->C:\remote\app\src\main\AndroidManifest.xml:12:22-84
 27    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-27-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:13:5-77
-27-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:13:22-74
+27-->C:\remote\app\src\main\AndroidManifest.xml:13:5-77
+27-->C:\remote\app\src\main\AndroidManifest.xml:13:22-74
 28
 29    <application
 29-->INJECTED
-30        android:name="app.libremotetvservice.LibremoteApp"
-30-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:16:9-37
+30        android:name="com.uniremote.UniRemoteApp"
+30-->C:\remote\app\src\main\AndroidManifest.xml:16:9-37
 31        android:allowBackup="false"
-31-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:17:9-36
+31-->C:\remote\app\src\main\AndroidManifest.xml:17:9-36
 32        android:dataExtractionRules="@xml/data_extraction_rules"
-32-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:18:9-65
+32-->C:\remote\app\src\main\AndroidManifest.xml:18:9-65
 33        android:debuggable="true"
 34        android:extractNativeLibs="false"
 34-->INJECTED
 35        android:fullBackupContent="false"
-35-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:19:9-42
+35-->C:\remote\app\src\main\AndroidManifest.xml:19:9-42
 36        android:icon="@mipmap/ic_launcher"
-36-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:20:9-43
+36-->C:\remote\app\src\main\AndroidManifest.xml:20:9-43
 37        android:label="@string/app_name"
-37-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:21:9-41
+37-->C:\remote\app\src\main\AndroidManifest.xml:21:9-41
 38        android:supportsRtl="true"
-38-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:22:9-35
+38-->C:\remote\app\src\main\AndroidManifest.xml:22:9-35
 39        android:theme="@style/Theme.Libremote"
-39-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:23:9-47
+39-->C:\remote\app\src\main\AndroidManifest.xml:23:9-47
 40        android:usesCleartextTraffic="false" >
 40-->INJECTED
 41
 42        <!-- Hears back from the system installer while Libremote installs an update of itself. -->
 43        <receiver
-43-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\standard\AndroidManifest.xml:10:9-12:40
-44            android:name="app.libremotetvservice.update.InstallReceiver"
-44-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\standard\AndroidManifest.xml:11:13-51
+43-->C:\remote\app\src\standard\AndroidManifest.xml:10:9-12:40
+44            android:name="com.uniremote.update.InstallReceiver"
+44-->C:\remote\app\src\standard\AndroidManifest.xml:11:13-51
 45            android:exported="false" />
-45-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\standard\AndroidManifest.xml:12:13-37
+45-->C:\remote\app\src\standard\AndroidManifest.xml:12:13-37
 46        <!--
 47             After an update the user started from Libremote: opens it again, or from Android 10 says so in a
 48             notification.
 49        -->
 50        <receiver
-50-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\standard\AndroidManifest.xml:15:9-21:20
-51            android:name="app.libremotetvservice.update.UpdatedReceiver"
-51-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\standard\AndroidManifest.xml:16:13-51
+50-->C:\remote\app\src\standard\AndroidManifest.xml:15:9-21:20
+51            android:name="com.uniremote.update.UpdatedReceiver"
+51-->C:\remote\app\src\standard\AndroidManifest.xml:16:13-51
 52            android:exported="false" >
-52-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\standard\AndroidManifest.xml:17:13-37
+52-->C:\remote\app\src\standard\AndroidManifest.xml:17:13-37
 53            <intent-filter>
-53-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\standard\AndroidManifest.xml:18:13-20:29
+53-->C:\remote\app\src\standard\AndroidManifest.xml:18:13-20:29
 54                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-54-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\standard\AndroidManifest.xml:19:17-84
-54-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\standard\AndroidManifest.xml:19:25-81
+54-->C:\remote\app\src\standard\AndroidManifest.xml:19:17-84
+54-->C:\remote\app\src\standard\AndroidManifest.xml:19:25-81
 55            </intent-filter>
 56        </receiver>
 57
 58        <activity
-58-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:27:9-35:20
-59            android:name="app.libremotetvservice.ui.DevicesActivity"
-59-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:28:13-47
+58-->C:\remote\app\src\main\AndroidManifest.xml:27:9-35:20
+59            android:name="com.uniremote.ui.DevicesActivity"
+59-->C:\remote\app\src\main\AndroidManifest.xml:28:13-47
 60            android:exported="true"
-60-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:29:13-36
+60-->C:\remote\app\src\main\AndroidManifest.xml:29:13-36
 61            android:launchMode="singleTask" >
-61-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:30:13-44
+61-->C:\remote\app\src\main\AndroidManifest.xml:30:13-44
 62            <intent-filter>
-62-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:31:13-34:29
+62-->C:\remote\app\src\main\AndroidManifest.xml:31:13-34:29
 63                <action android:name="android.intent.action.MAIN" />
-63-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:32:17-69
-63-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:32:25-66
+63-->C:\remote\app\src\main\AndroidManifest.xml:32:17-69
+63-->C:\remote\app\src\main\AndroidManifest.xml:32:25-66
 64
 65                <category android:name="android.intent.category.LAUNCHER" />
-65-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:33:17-77
-65-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:33:27-74
+65-->C:\remote\app\src\main\AndroidManifest.xml:33:17-77
+65-->C:\remote\app\src\main\AndroidManifest.xml:33:27-74
 66            </intent-filter>
 67        </activity>
 68        <activity
-68-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:36:9-40:70
-69            android:name="app.libremotetvservice.ui.RemoteActivity"
-69-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:37:13-46
+68-->C:\remote\app\src\main\AndroidManifest.xml:36:9-40:70
+69            android:name="com.uniremote.ui.RemoteActivity"
+69-->C:\remote\app\src\main\AndroidManifest.xml:37:13-46
 70            android:exported="false"
-70-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:38:13-37
+70-->C:\remote\app\src\main\AndroidManifest.xml:38:13-37
 71            android:launchMode="singleTask"
-71-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:39:13-44
+71-->C:\remote\app\src\main\AndroidManifest.xml:39:13-44
 72            android:windowSoftInputMode="adjustResize|stateHidden" />
-72-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:40:13-67
+72-->C:\remote\app\src\main\AndroidManifest.xml:40:13-67
 73        <activity
-73-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:41:9-43:40
-74            android:name="app.libremotetvservice.ui.SettingsActivity"
-74-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:42:13-48
+73-->C:\remote\app\src\main\AndroidManifest.xml:41:9-43:40
+74            android:name="com.uniremote.ui.SettingsActivity"
+74-->C:\remote\app\src\main\AndroidManifest.xml:42:13-48
 75            android:exported="false" /> <!-- Settings › Shortcuts and Settings › Remote guide. -->
-75-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:43:13-37
+75-->C:\remote\app\src\main\AndroidManifest.xml:43:13-37
 76        <activity
-76-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:45:9-47:40
-77            android:name="app.libremotetvservice.ui.ShortcutsActivity"
-77-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:46:13-49
+76-->C:\remote\app\src\main\AndroidManifest.xml:45:9-47:40
+77            android:name="com.uniremote.ui.ShortcutsActivity"
+77-->C:\remote\app\src\main\AndroidManifest.xml:46:13-49
 78            android:exported="false" />
-78-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:47:13-37
+78-->C:\remote\app\src\main\AndroidManifest.xml:47:13-37
 79        <activity
-79-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:48:9-50:40
-80            android:name="app.libremotetvservice.ui.RemoteGuideActivity"
-80-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:49:13-51
+79-->C:\remote\app\src\main\AndroidManifest.xml:48:9-50:40
+80            android:name="com.uniremote.ui.RemoteGuideActivity"
+80-->C:\remote\app\src\main\AndroidManifest.xml:49:13-51
 81            android:exported="false" /> <!-- "Send to TV" in other apps' share menus. Shared files come as content URIs: no storage permission. -->
-81-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:50:13-37
+81-->C:\remote\app\src\main\AndroidManifest.xml:50:13-37
 82        <activity
-82-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:52:9-63:20
-83            android:name="app.libremotetvservice.ui.SendActivity"
-83-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:53:13-44
+82-->C:\remote\app\src\main\AndroidManifest.xml:52:9-63:20
+83            android:name="com.uniremote.ui.SendActivity"
+83-->C:\remote\app\src\main\AndroidManifest.xml:53:13-44
 84            android:exported="true"
-84-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:54:13-36
+84-->C:\remote\app\src\main\AndroidManifest.xml:54:13-36
 85            android:label="@string/send_share_label"
-85-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:55:13-53
+85-->C:\remote\app\src\main\AndroidManifest.xml:55:13-53
 86            android:theme="@style/Theme.Libremote.Floating" >
-86-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:56:13-60
+86-->C:\remote\app\src\main\AndroidManifest.xml:56:13-60
 87            <intent-filter>
-87-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:57:13-62:29
+87-->C:\remote\app\src\main\AndroidManifest.xml:57:13-62:29
 88                <action android:name="android.intent.action.SEND" />
-88-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:58:17-69
-88-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:58:25-66
+88-->C:\remote\app\src\main\AndroidManifest.xml:58:17-69
+88-->C:\remote\app\src\main\AndroidManifest.xml:58:25-66
 89                <action android:name="android.intent.action.SEND_MULTIPLE" />
-89-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:59:17-78
-89-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:59:25-75
+89-->C:\remote\app\src\main\AndroidManifest.xml:59:17-78
+89-->C:\remote\app\src\main\AndroidManifest.xml:59:25-75
 90
 91                <category android:name="android.intent.category.DEFAULT" />
-91-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:60:17-76
-91-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:60:27-73
+91-->C:\remote\app\src\main\AndroidManifest.xml:60:17-76
+91-->C:\remote\app\src\main\AndroidManifest.xml:60:27-73
 92
 93                <data android:mimeType="*/*" />
-93-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:61:17-48
-93-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:61:23-45
+93-->C:\remote\app\src\main\AndroidManifest.xml:61:17-48
+93-->C:\remote\app\src\main\AndroidManifest.xml:61:23-45
 94            </intent-filter>
 95        </activity> <!-- Send files: keeps a batch going with a notification. -->
 96        <service
-96-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:66:9-69:56
-97            android:name="app.libremotetvservice.ui.SendService"
-97-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:67:13-43
+96-->C:\remote\app\src\main\AndroidManifest.xml:66:9-69:56
+97            android:name="com.uniremote.ui.SendService"
+97-->C:\remote\app\src\main\AndroidManifest.xml:67:13-43
 98            android:exported="false"
-98-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:68:13-37
+98-->C:\remote\app\src\main\AndroidManifest.xml:68:13-37
 99            android:foregroundServiceType="dataSync" />
-99-->C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\AndroidManifest.xml:69:13-53
+99-->C:\remote\app\src\main\AndroidManifest.xml:69:13-53
 100    </application>
 101
 102</manifest>

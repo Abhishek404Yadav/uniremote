@@ -60,11 +60,13 @@
                 android:layout_height="0dp"
                 android:layout_weight="1" />
 
+            <include layout="@layout/remote_volume_row" />
+
             <include layout="@layout/remote_media_row" />
 
             <include layout="@layout/remote_nav_row" />
 
-            <app.libremotetvservice.ui.ShortcutsView
+            <com.uniremote.ui.ShortcutsView
                 android:id="@+id/appsScroll"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

@@ -3,8 +3,8 @@ package app.libremotereceiver
 import android.annotation.SuppressLint
 import android.content.Context
 import android.net.Uri
-import app.libremotetvservice.protocol.PhoneRegistry
-import app.libremotetvservice.protocol.ReceiverInvite
+import com.uniremote.protocol.PhoneRegistry
+import com.uniremote.protocol.ReceiverInvite
 import org.json.JSONArray
 import org.json.JSONObject
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="app.libremotetvservice"
+    package="com.uniremote"
     android:versionCode="10000"
     android:versionName="1.0.0" >
 
@@ -27,7 +27,7 @@
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <application
-        android:name="app.libremotetvservice.LibremoteApp"
+        android:name="com.uniremote.UniRemoteApp"
         android:allowBackup="false"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:debuggable="true"
@@ -41,14 +41,14 @@
 
         <!-- Hears back from the system installer while Libremote installs an update of itself. -->
         <receiver
-            android:name="app.libremotetvservice.update.InstallReceiver"
+            android:name="com.uniremote.update.InstallReceiver"
             android:exported="false" />
         <!--
              After an update the user started from Libremote: opens it again, or from Android 10 says so in a
              notification.
         -->
         <receiver
-            android:name="app.libremotetvservice.update.UpdatedReceiver"
+            android:name="com.uniremote.update.UpdatedReceiver"
             android:exported="false" >
             <intent-filter>
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
@@ -56,7 +56,7 @@
         </receiver>
 
         <activity
-            android:name="app.libremotetvservice.ui.DevicesActivity"
+            android:name="com.uniremote.ui.DevicesActivity"
             android:exported="true"
             android:launchMode="singleTask" >
             <intent-filter>
@@ -66,21 +66,21 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="app.libremotetvservice.ui.RemoteActivity"
+            android:name="com.uniremote.ui.RemoteActivity"
             android:exported="false"
             android:launchMode="singleTask"
             android:windowSoftInputMode="adjustResize|stateHidden" />
         <activity
-            android:name="app.libremotetvservice.ui.SettingsActivity"
+            android:name="com.uniremote.ui.SettingsActivity"
             android:exported="false" /> <!-- Settings › Shortcuts and Settings › Remote guide. -->
         <activity
-            android:name="app.libremotetvservice.ui.ShortcutsActivity"
+            android:name="com.uniremote.ui.ShortcutsActivity"
             android:exported="false" />
         <activity
-            android:name="app.libremotetvservice.ui.RemoteGuideActivity"
+            android:name="com.uniremote.ui.RemoteGuideActivity"
             android:exported="false" /> <!-- "Send to TV" in other apps' share menus. Shared files come as content URIs: no storage permission. -->
         <activity
-            android:name="app.libremotetvservice.ui.SendActivity"
+            android:name="com.uniremote.ui.SendActivity"
             android:exported="true"
             android:label="@string/send_share_label"
             android:theme="@style/Theme.Libremote.Floating" >
@@ -94,7 +94,7 @@
             </intent-filter>
         </activity> <!-- Send files: keeps a batch going with a notification. -->
         <service
-            android:name="app.libremotetvservice.ui.SendService"
+            android:name="com.uniremote.ui.SendService"
             android:exported="false"
             android:foregroundServiceType="dataSync" />
     </application>

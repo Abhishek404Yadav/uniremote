@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- The middle of the remote. PadLayout places and sizes these (the layout_ sizes here are ignored) and shows the
      ones the mode needs. Their order here is TalkBack's reading order. -->
-<app.libremotetvservice.ui.PadLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.uniremote.ui.PadLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/pad"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -83,12 +83,12 @@
             android:src="@drawable/ic_volume_down" />
     </LinearLayout>
 
-    <app.libremotetvservice.ui.DpadView
+    <com.uniremote.ui.DpadView
         android:id="@+id/dpad"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <app.libremotetvservice.ui.TouchpadView
+    <com.uniremote.ui.TouchpadView
         android:id="@+id/touchpad"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -121,9 +121,9 @@
     </LinearLayout>
 
     <!-- Full mode only: a short touchpad under the D-pad. -->
-    <app.libremotetvservice.ui.TouchpadView
+    <com.uniremote.ui.TouchpadView
         android:id="@+id/strip"
         android:layout_width="match_parent"
         android:layout_height="96dp"
         android:visibility="gone" />
-</app.libremotetvservice.ui.PadLayout>
+</com.uniremote.ui.PadLayout>

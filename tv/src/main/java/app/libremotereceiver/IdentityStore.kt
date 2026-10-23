@@ -3,7 +3,7 @@ package app.libremotereceiver
 import android.content.Context
 import android.security.keystore.KeyGenParameterSpec
 import android.security.keystore.KeyProperties
-import app.libremotetvservice.protocol.ClientIdentity
+import com.uniremote.protocol.ClientIdentity
 import java.io.ByteArrayOutputStream
 import java.io.DataInputStream
 import java.io.DataOutputStream

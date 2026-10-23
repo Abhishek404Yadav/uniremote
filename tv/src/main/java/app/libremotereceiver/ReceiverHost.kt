@@ -4,9 +4,9 @@ import android.app.Activity
 import android.os.Handler
 import android.os.Looper
 import android.util.Log
-import app.libremotetvservice.protocol.FileReceiver
-import app.libremotetvservice.protocol.InstalledApp
-import app.libremotetvservice.protocol.ReceiverServer
+import com.uniremote.protocol.FileReceiver
+import com.uniremote.protocol.InstalledApp
+import com.uniremote.protocol.ReceiverServer
 import java.util.concurrent.Executors
 
 /**

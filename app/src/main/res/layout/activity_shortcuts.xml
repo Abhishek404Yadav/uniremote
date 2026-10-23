@@ -73,7 +73,7 @@
                 android:paddingEnd="12dp"
                 android:paddingBottom="14dp">
 
-                <app.libremotetvservice.ui.ShortcutsView
+                <com.uniremote.ui.ShortcutsView
                     android:id="@+id/preview"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />

@@ -3,11 +3,12 @@
     android:id="@+id/navRow"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginTop="12dp"
+    android:layout_marginTop="8dp"
     android:layout_marginBottom="12dp"
     android:orientation="horizontal">
 
     <FrameLayout
+        android:id="@+id/frameBack"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1">
@@ -21,6 +22,7 @@
     </FrameLayout>
 
     <FrameLayout
+        android:id="@+id/frameHome"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1">
@@ -34,6 +36,22 @@
     </FrameLayout>
 
     <FrameLayout
+        android:id="@+id/frameYoutube"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/btnYoutube"
+            style="@style/Libremote.Round"
+            android:layout_gravity="center"
+            android:contentDescription="@string/btn_youtube"
+            android:src="@drawable/ic_youtube" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameKeyboard"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1">
@@ -44,5 +62,20 @@
             android:layout_gravity="center"
             android:contentDescription="@string/keyboard"
             android:src="@drawable/ic_keyboard" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/framePlaylist"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btnPlaylist"
+            style="@style/Libremote.RoundTextButton"
+            android:layout_gravity="center"
+            android:contentDescription="@string/playlist_description"
+            android:text="@string/btn_playlist" />
     </FrameLayout>
 </LinearLayout>

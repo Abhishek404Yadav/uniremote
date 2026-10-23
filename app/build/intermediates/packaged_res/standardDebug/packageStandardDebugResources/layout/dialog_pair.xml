@@ -63,7 +63,7 @@
         <!-- Takes the typing (and pasting) for the boxes, which only display it. Plain text with no suggestions
              and no learning: a password type would keep keyboards quiet too, but makes password managers offer to
              save the code. -->
-        <app.libremotetvservice.ui.PrivateEditText
+        <com.uniremote.ui.PrivateEditText
             android:id="@+id/codeInput"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

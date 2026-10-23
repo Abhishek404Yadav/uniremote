@@ -8,10 +8,10 @@
     android:orientation="horizontal">
 
     <TextView
-        android:id="@+id/modeFull"
+        android:id="@+id/modeSimple"
         style="@style/Libremote.ModeSegment"
-        android:drawableStart="@drawable/ic_remote"
-        android:text="@string/mode_full" />
+        android:drawableStart="@drawable/ic_settings_remote"
+        android:text="@string/mode_simple" />
 
     <TextView
         android:id="@+id/modeDpad"
@@ -24,4 +24,10 @@
         style="@style/Libremote.ModeSegment"
         android:drawableStart="@drawable/ic_swipe"
         android:text="@string/mode_touchpad" />
+
+    <TextView
+        android:id="@+id/modeFull"
+        style="@style/Libremote.ModeSegment"
+        android:drawableStart="@drawable/ic_remote"
+        android:text="@string/mode_full" />
 </LinearLayout>

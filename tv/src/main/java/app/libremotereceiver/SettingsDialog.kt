@@ -13,7 +13,7 @@ import android.widget.LinearLayout
 import android.widget.ScrollView
 import android.widget.Switch
 import android.widget.TextView
-import app.libremotetvservice.protocol.PhoneRegistry
+import com.uniremote.protocol.PhoneRegistry
 
 /**
  * The receiver's settings, over its screen: a dialog rather than a screen of its own, so the receiver keeps

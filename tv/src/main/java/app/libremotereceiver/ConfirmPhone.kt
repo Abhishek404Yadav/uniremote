@@ -6,7 +6,7 @@ import android.content.DialogInterface
 import android.os.Handler
 import android.os.Looper
 import android.widget.Toast
-import app.libremotetvservice.protocol.PhoneRegistry
+import com.uniremote.protocol.PhoneRegistry
 
 /**
  * Asks the user whether to allow a phone that isn't paired (or was removed) to use the receiver, over the screen

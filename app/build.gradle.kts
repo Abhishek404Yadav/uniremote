@@ -36,12 +36,12 @@ val releaseCert: String = providers.gradleProperty("libremote.releaseCert")
     .getOrElse("37d436a201c759fd35f485daab3bbd3f8d54156fea673a23bbcf72a6f38e6ee4")
 
 android {
-    namespace = "app.libremotetvservice"
+    namespace = "com.uniremote"
     compileSdk = 36
     buildToolsVersion = "36.1.0"
 
     defaultConfig {
-        applicationId = "app.libremotetvservice"
+        applicationId = "com.uniremote"
         minSdk = 26
         targetSdk = 36
         // MAJOR * 10000 + MINOR * 100 + PATCH, so 1.2.3 is 10203. Keep both literal for F-Droid.

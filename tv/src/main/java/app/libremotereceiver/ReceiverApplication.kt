@@ -2,7 +2,7 @@ package app.libremotereceiver
 
 import android.app.Application
 import android.content.Context
-import app.libremotetvservice.protocol.PhoneRegistry
+import com.uniremote.protocol.PhoneRegistry
 
 /** Holds the app-wide pieces: the paired phones, the receiver's identity and settings, and the server. */
 class ReceiverApplication : Application() {

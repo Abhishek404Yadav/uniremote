@@ -5,7 +5,7 @@ import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.Canvas
 import android.graphics.drawable.Drawable
-import app.libremotetvservice.protocol.InstalledApp
+import com.uniremote.protocol.InstalledApp
 import java.io.ByteArrayOutputStream
 
 /**

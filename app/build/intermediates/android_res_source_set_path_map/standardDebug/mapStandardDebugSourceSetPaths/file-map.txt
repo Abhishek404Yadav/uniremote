@@ -1,10 +1,10 @@
-app.libremotetvservice.app-standard-0 C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\build\generated\res\pngs\standard\debug
-app.libremotetvservice.app-updated_navigation_xml-1 C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\build\generated\updated_navigation_xml\standardDebug
-app.libremotetvservice.app-packageStandardDebugResources-2 C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\build\intermediates\incremental\standardDebug\packageStandardDebugResources\merged.dir
-app.libremotetvservice.app-packageStandardDebugResources-3 C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\build\intermediates\incremental\standardDebug\packageStandardDebugResources\stripped.dir
-app.libremotetvservice.app-standardDebug-4 C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\build\intermediates\merged_res\standardDebug\mergeStandardDebugResources
-app.libremotetvservice.app-debug-5 C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\debug\res
-app.libremotetvservice.app-main-6 C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\main\res
-app.libremotetvservice.app-standard-7 C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\standard\res
-app.libremotetvservice.app-standardDebug-8 C:\Users\Abhishek Yadav\AppData\Local\Temp\libremote-ref\app\src\standardDebug\res
+com.uniremote.app-standard-0 C:\remote\app\build\generated\res\pngs\standard\debug
+com.uniremote.app-updated_navigation_xml-1 C:\remote\app\build\generated\updated_navigation_xml\standardDebug
+com.uniremote.app-packageStandardDebugResources-2 C:\remote\app\build\intermediates\incremental\standardDebug\packageStandardDebugResources\merged.dir
+com.uniremote.app-packageStandardDebugResources-3 C:\remote\app\build\intermediates\incremental\standardDebug\packageStandardDebugResources\stripped.dir
+com.uniremote.app-standardDebug-4 C:\remote\app\build\intermediates\merged_res\standardDebug\mergeStandardDebugResources
+com.uniremote.app-debug-5 C:\remote\app\src\debug\res
+com.uniremote.app-main-6 C:\remote\app\src\main\res
+com.uniremote.app-standard-7 C:\remote\app\src\standard\res
+com.uniremote.app-standardDebug-8 C:\remote\app\src\standardDebug\res
 gradleHome-0 C:\Users\Abhishek Yadav\.gradle

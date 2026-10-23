@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Over the top of the pad, between the side columns (64 dp in from each edge), so it never hides the volume key
      being pressed. -->
-<app.libremotetvservice.ui.MaxWidthLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.uniremote.ui.MaxWidthLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/volumeHud"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -47,4 +47,4 @@
         android:gravity="end"
         android:textColor="@color/on_surface"
         android:textSize="15sp" />
-</app.libremotetvservice.ui.MaxWidthLinearLayout>
+</com.uniremote.ui.MaxWidthLinearLayout>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Libremote</string>
+    <string name="app_name">UniRemote</string>
 
     <!-- TV list -->
     <string name="devices_title">Your TVs</string>
@@ -12,7 +12,7 @@
     <string name="devices_tap_to_pair">Tap to pair</string>
     <string name="devices_online">Nearby · %1$s</string>
     <string name="devices_offline">Last seen at %1$s</string>
-    <string name="devices_privacy">No accounts, no ads, no tracking. Libremote talks only to your TV, and to GitHub if you check for updates.</string>
+    <string name="devices_privacy">No accounts, no ads, no tracking. UniRemote talks only to your TV, and to GitHub if you check for updates.</string>
     <string name="devices_rename">Rename</string>
     <string name="devices_forget">Forget</string>
     <string name="devices_forget_title">Forget %1$s?</string>
@@ -62,7 +62,7 @@
     <string name="problem_identity_title">%1$s has a new identity</string>
     <string name="problem_identity_text">This happens after the TV is reset, or if a different device now uses its address. Pair again if this is your TV.</string>
     <string name="problem_refused_title">%1$s ended the connection</string>
-    <string name="problem_refused_text">The TV reported an error. Libremote will try again.</string>
+    <string name="problem_refused_text">The TV reported an error. UniRemote will try again.</string>
     <string name="retry">Retry</string>
     <string name="retrying_in">Retrying in %1$d s</string>
     <string name="pair_again">Pair again</string>
@@ -70,6 +70,7 @@
     <string name="mode_full">Full</string>
     <string name="mode_dpad">D-pad</string>
     <string name="mode_touchpad">Touchpad</string>
+    <string name="mode_simple">Simple</string>
     <string name="touchpad_hint">Swipe to move · Tap to select · Hold for options</string>
     <string name="strip">Swipe strip</string>
     <string name="strip_hint">Swipe to move · Tap for OK</string>
@@ -114,6 +115,22 @@
     <string name="volume">Volume</string>
     <string name="volume_muted">Muted</string>
 
+    <!-- YouTube Playlist Quick-Open -->
+    <string name="btn_playlist">Playlist</string>
+    <string name="playlist_description">Open YouTube Playlist Page</string>
+    <string name="playlist_opening">Opening playlist on TV…</string>
+    <string name="playlist_dialog_title_new">Set YouTube Playlist</string>
+    <string name="playlist_dialog_title_edit">Edit YouTube Playlist</string>
+    <string name="playlist_dialog_msg">Paste your YouTube playlist link below. When you click this button, it directly opens the playlist page on the TV without playing any video.</string>
+    <string name="playlist_name_hint">Button Name (e.g. Playlist or Favorites)</string>
+    <string name="playlist_url_hint">Playlist Link (https://www.youtube.com/playlist?list=…)</string>
+    <string name="playlist_save_open">Save &amp; Open</string>
+    <string name="playlist_remove">Remove</string>
+    <string name="playlist_invalid_url">Please enter a valid YouTube playlist URL or ID (containing list=…)</string>
+    <string name="playlist_offline">Connect to a TV to open the playlist</string>
+    <string name="btn_youtube">YouTube</string>
+    <string name="youtube_opening">Opening YouTube on TV…</string>
+
     <!-- Sending files -->
     <string name="send_files">Send files</string>
     <string name="send_share_label">Send to TV</string>
@@ -126,13 +143,13 @@
     <string name="send_change_tv">Change TV</string>
     <string name="send_title_sending">Sending to %1$s</string>
     <string name="send_preparing">Getting the files ready…</string>
-    <string name="send_opening_receiver">Opening Libremote Receiver on the TV…</string>
+    <string name="send_opening_receiver">Opening UniRemote Receiver on the TV…</string>
     <string name="send_confirm_title">Allow this phone on %1$s</string>
     <string name="send_confirm_text">The TV is asking whether to allow this phone. Choose Allow there if it shows the code %1$s.</string>
     <string name="send_current_file">%1$s (%2$d of %3$d)</string>
     <string name="send_progress">%1$s of %2$s</string>
     <string name="send_sent_title">Sent to %1$s</string>
-    <string name="send_sent_text">They are listed in Libremote Receiver on the TV, and saved in its Download/Libremote folder.</string>
+    <string name="send_sent_text">They are listed in UniRemote Receiver on the TV, and saved in its Download/UniRemote folder.</string>
     <plurals name="send_sent_summary">
         <item quantity="one">%1$d file, %2$s</item>
         <item quantity="other">%1$d files, %2$s</item>
@@ -140,19 +157,19 @@
     <string name="send_done">Done</string>
     <string name="close">Close</string>
     <string name="send_no_tv_title">No TV yet</string>
-    <string name="send_no_tv_text">Pair Libremote with your TV first, then send the files again.</string>
+    <string name="send_no_tv_text">Pair UniRemote with your TV first, then send the files again.</string>
     <string name="send_nothing_title">Nothing to send</string>
-    <string name="send_nothing_text">Libremote sends files, such as photos, videos and APKs. Text and links can\'t be sent this way.</string>
+    <string name="send_nothing_text">UniRemote sends files, such as photos, videos and APKs. Text and links can\'t be sent this way.</string>
     <string name="send_busy_title">Still sending</string>
-    <string name="send_busy_text">Libremote is still sending other files. Try again once they have arrived.</string>
-    <string name="send_no_receiver_title">Libremote Receiver isn\'t on %1$s</string>
-    <string name="send_no_receiver_text">Files go to Libremote Receiver, a small free app for the TV (Android TV 8 or later). Install it on the TV from where you got Libremote, for example by copying its APK to the TV on a USB stick and opening it there. Then try again: Libremote opens it on the TV by itself.</string>
+    <string name="send_busy_text">UniRemote is still sending other files. Try again once they have arrived.</string>
+    <string name="send_no_receiver_title">UniRemote Receiver isn\'t on %1$s</string>
+    <string name="send_no_receiver_text">Files go to UniRemote Receiver, a small free app for the TV (Android TV 8 or later). Install it on the TV from where you got UniRemote, for example by copying its APK to the TV on a USB stick and opening it there. Then try again: UniRemote opens it on the TV by itself.</string>
     <string name="send_unreadable_title">Couldn\'t read %1$s</string>
     <string name="send_unreadable_text">The file may have been moved or deleted. Nothing more was sent.</string>
     <string name="send_refused_title">%1$s turned the files down</string>
-    <string name="send_refused_text">Libremote Receiver said: %1$s</string>
+    <string name="send_refused_text">UniRemote Receiver said: %1$s</string>
     <string name="send_stalled_title">%1$s stopped receiving</string>
-    <string name="send_stalled_text">The TV may be out of space, or Libremote Receiver was closed. Some files may not have arrived.</string>
+    <string name="send_stalled_text">The TV may be out of space, or UniRemote Receiver was closed. Some files may not have arrived.</string>
     <string name="send_lost_title">The connection to %1$s was lost</string>
     <string name="send_lost_text">Check the Wi-Fi and try again. (%1$s)</string>
     <!-- A connection lost mid-batch: which files the TV confirmed, which one was cut off, which never went. -->
@@ -176,7 +193,7 @@
         <item quantity="one">The remaining %1$d file didn\'t arrive.</item>
         <item quantity="other">The remaining %1$d files didn\'t arrive.</item>
     </plurals>
-    <string name="send_lost_unconfirmed">It was lost while sending %1$s (%2$d of %3$d). This version of Libremote Receiver doesn\'t confirm each file, so check on the TV which ones arrived.</string>
+    <string name="send_lost_unconfirmed">It was lost while sending %1$s (%2$d of %3$d). This version of UniRemote Receiver doesn\'t confirm each file, so check on the TV which ones arrived.</string>
     <plurals name="send_lost_retry">
         <item quantity="one">Check the Wi-Fi, then try again to send the file that didn\'t arrive. (%2$s)</item>
         <item quantity="other">Check the Wi-Fi, then try again to send the %1$d files that didn\'t arrive. (%2$s)</item>
@@ -197,17 +214,17 @@
     <string name="settings_no_tvs">No paired TVs yet.</string>
     <string name="settings_about">About</string>
     <string name="settings_version">Version %1$s</string>
-    <string name="settings_privacy">Libremote has no accounts, ads, analytics or crash reporting. It connects only to TVs on your local network, using the same encrypted, paired connection as Google\'s own remote. It also keeps your phone\'s model and Android version from the TV, which can include them in its own usage reports to Google.</string>
+    <string name="settings_privacy">UniRemote has no accounts, ads, analytics or crash reporting. It connects only to TVs on your local network, using the same encrypted, paired connection as Google\'s own remote. It also keeps your phone\'s model and Android version from the TV, which can include them in its own usage reports to Google.</string>
     <string name="settings_licence">Free software under the GNU General Public License, version 3. Icons: Material Symbols by Google, Apache License 2.0.</string>
     <string name="back">Back</string>
 
     <!-- Send files and receiver -->
-    <string name="send_cant_open_title">Couldn\'t open Libremote Receiver on %1$s</string>
-    <string name="send_cant_open_text">Libremote opens it through its remote connection to the TV, which isn\'t available right now. Check that the TV is on, or open Libremote Receiver on the TV yourself, then try again.</string>
-    <string name="send_not_listening_title">Libremote Receiver on %1$s didn\'t answer</string>
+    <string name="send_cant_open_title">Couldn\'t open UniRemote Receiver on %1$s</string>
+    <string name="send_cant_open_text">UniRemote opens it through its remote connection to the TV, which isn\'t available right now. Check that the TV is on, or open UniRemote Receiver on the TV yourself, then try again.</string>
+    <string name="send_not_listening_title">UniRemote Receiver on %1$s didn\'t answer</string>
     <string name="send_not_listening_text">It opened on the TV but didn\'t take the files. If it is an older version, update it on the TV, then try again.</string>
-    <string name="send_unverified_title">Couldn\'t verify Libremote Receiver on %1$s</string>
-    <string name="send_unverified_text">Libremote couldn\'t confirm that it was talking to the receiver on your TV, so nothing was sent. Try again. If this keeps happening, another device on your network may be answering in its place.</string>
+    <string name="send_unverified_title">Couldn\'t verify UniRemote Receiver on %1$s</string>
+    <string name="send_unverified_text">UniRemote couldn\'t confirm that it was talking to the receiver on your TV, so nothing was sent. Try again. If this keeps happening, another device on your network may be answering in its place.</string>
     <string name="send_declined_title">%1$s didn\'t allow this phone</string>
     <string name="send_declined_text">Nothing was sent. To try again, send once more, and choose Allow on the TV if it shows the same code as this phone.</string>
     <string name="notification_channel">Sending files</string>
@@ -218,10 +235,10 @@
         <item quantity="one">Sent %1$d file to %2$s</item>
         <item quantity="other">Sent %1$d files to %2$s</item>
     </plurals>
-    <string name="notification_sent_text">%1$s, in Download/Libremote on the TV</string>
+    <string name="notification_sent_text">%1$s, in Download/UniRemote on the TV</string>
     <string name="notification_failed_title">Couldn\'t send to %1$s</string>
-    <string name="notification_failed_text">Open Libremote to see why, and to try again.</string>
-    <string name="notification_lost_text">%1$s Open Libremote to try again.</string>
+    <string name="notification_failed_text">Open UniRemote to see why, and to try again.</string>
+    <string name="notification_lost_text">%1$s Open UniRemote to try again.</string>
 
     <!-- Shortcuts, About this TV, Remote guide -->
 
@@ -230,7 +247,7 @@
     <string name="shortcut_not_installed">%1$s isn\'t on this TV. Its Play Store page is open on the TV.</string>
     <string name="shortcut_not_on_tv">%1$s isn\'t on this TV.</string>
     <string name="shortcut_failed">The TV couldn\'t open %1$s.</string>
-    <string name="shortcut_needs_receiver">Install Libremote Receiver on this TV to open %1$s.</string>
+    <string name="shortcut_needs_receiver">Install UniRemote Receiver on this TV to open %1$s.</string>
     <string name="shortcut_offline">Not connected to %1$s.</string>
     <string name="shortcut_busy">Still opening an app. Try again in a moment.</string>
     <string name="shortcut_pin">Pin</string>
@@ -264,9 +281,9 @@
     <string name="shortcuts_by_package_invalid">That isn\'t a package name. Package names look like com.example.app.</string>
     <string name="shortcuts_add_button">Add</string>
     <string name="shortcuts_sync">Get the app list from the TV</string>
-    <string name="shortcuts_sync_hint">Needs Libremote Receiver on the TV</string>
+    <string name="shortcuts_sync_hint">Needs UniRemote Receiver on the TV</string>
     <string name="shortcuts_sync_running">Asking the TV…</string>
-    <string name="shortcuts_sync_failed">Couldn\'t get the list. Install Libremote Receiver on the TV, then try again.</string>
+    <string name="shortcuts_sync_failed">Couldn\'t get the list. Install UniRemote Receiver on the TV, then try again.</string>
     <string name="shortcuts_sync_confirm">The TV is asking whether to allow this phone. Choose Allow there if it shows the code %1$s.</string>
     <string name="shortcuts_sync_declined">The TV didn\'t allow this phone. Try again, and choose Allow on the TV if it shows the same code as this phone.</string>
 
@@ -290,12 +307,12 @@
         <item quantity="other">%d rows</item>
     </plurals>
     <string name="shortcuts_on_remote">On the remote</string>
-    <string name="shortcuts_on_remote_text">Pinned apps come first, in your order: drag them by the handle. The others follow, most used first. Libremote learns them from the apps you open on this TV.</string>
+    <string name="shortcuts_on_remote_text">Pinned apps come first, in your order: drag them by the handle. The others follow, most used first. UniRemote learns them from the apps you open on this TV.</string>
     <string name="shortcuts_pinned">Pinned</string>
     <string name="shortcuts_by_use">Most used</string>
     <string name="shortcuts_restore">Restore</string>
     <string name="shortcuts_tv_apps">Apps on the TV</string>
-    <string name="shortcuts_tv_apps_text">Libremote Receiver on the TV can share the TV\'s list of apps, with their names and icons.</string>
+    <string name="shortcuts_tv_apps_text">UniRemote Receiver on the TV can share the TV\'s list of apps, with their names and icons.</string>
     <plurals name="shortcuts_tv_apps_count">
         <item quantity="one">%1$d app from %2$s, with its name and icon.</item>
         <item quantity="other">%1$d apps from %2$s, with their names and icons.</item>
@@ -305,7 +322,7 @@
     <string name="shortcuts_reset_text">Go back to the starting list: YouTube, Netflix, Prime Video, Disney+ and Spotify.</string>
     <string name="shortcuts_reset">Reset shortcuts</string>
     <string name="shortcuts_reset_title">Reset shortcuts for %1$s?</string>
-    <string name="shortcuts_reset_confirm">Your pins, names and hidden apps are cleared, and Libremote forgets which apps it saw on this TV.</string>
+    <string name="shortcuts_reset_confirm">Your pins, names and hidden apps are cleared, and UniRemote forgets which apps it saw on this TV.</string>
     <string name="shortcuts_reset_button">Reset</string>
 
     <!-- Settings entries -->
@@ -329,15 +346,15 @@
     <string name="about_service_version">Remote service version</string>
     <string name="about_features">Features it offers</string>
     <string name="about_address">Address</string>
-    <string name="about_receiver">Libremote Receiver</string>
+    <string name="about_receiver">UniRemote Receiver</string>
     <string name="about_receiver_present">Installed</string>
     <string name="about_receiver_absent">Not found on this TV</string>
     <string name="about_receiver_unknown">Not seen yet</string>
     <string name="about_play_store">Play Store</string>
-    <string name="about_play_store_missing">Not found. Shortcuts open apps through Libremote Receiver, or an app\'s own link.</string>
+    <string name="about_play_store_missing">Not found. Shortcuts open apps through UniRemote Receiver, or an app\'s own link.</string>
     <string name="about_never_connected">Connect to this TV once to see what it reports about itself.</string>
     <string name="about_reported_now">As the TV reported it on connecting. It stays on this phone.</string>
-    <string name="about_reported_before">As the TV reported it when Libremote last connected, %1$s. It stays on this phone.</string>
+    <string name="about_reported_before">As the TV reported it when UniRemote last connected, %1$s. It stays on this phone.</string>
     <string name="feature_keys">Remote buttons</string>
     <string name="feature_typing">Typing</string>
     <string name="feature_volume">Volume</string>
@@ -348,7 +365,7 @@
     <string name="feature_assistant">Google Assistant</string>
     <string name="feature_gamepad">Game controller</string>
     <string name="feature_ping">Connection checks</string>
-    <string name="feature_unused">%1$s (not used by Libremote)</string>
+    <string name="feature_unused">%1$s (not used by UniRemote)</string>
     <string name="feature_other">Others: %1$s</string>
 
     <!-- Remote guide: one name and description per button, from RemoteGuide.sections -->
@@ -358,21 +375,22 @@
     <string name="guide_tv_name">TV name</string>
     <string name="guide_tv_name_does">Opens the TV menu: switch to another TV or add one, and this TV\'s Find my remote, Channel buttons and About this TV.</string>
     <string name="guide_send_files_does">Sends photos, videos and other files to the TV.</string>
-    <string name="guide_send_files_caveat">Needs Libremote Receiver on the TV. Libremote opens it there by itself.</string>
+    <string name="guide_send_files_caveat">Needs UniRemote Receiver on the TV. UniRemote opens it there by itself.</string>
     <string name="guide_power_does">Turns the TV\'s screen on or off. The button turns solid while the screen is off.</string>
     <string name="guide_power_caveat">Turning the TV on works only if it stays on the network while off. Many TVs have a setting for this.</string>
-    <string name="guide_app_settings_does">Libremote\'s settings: controls, shortcuts, this guide and your TVs.</string>
+    <string name="guide_app_settings_does">UniRemote\'s settings: controls, shortcuts, this guide and your TVs.</string>
     <string name="guide_tv_menu">TV menu (under the TV\'s name)</string>
     <string name="guide_add_tv_does">Pairs another TV. Also in Settings.</string>
     <string name="guide_find_remote_does">Makes the TV\'s own remote beep, so you can find it.</string>
     <string name="guide_find_remote_caveat">Only on TVs whose remote can beep. The menu offers it only then.</string>
     <string name="guide_tv_buttons_does">On, for a TV: Channel +, Menu and Channel − on the right. Off, for a streaming box: Search, Menu and Apps.</string>
-    <string name="guide_tv_buttons_caveat">Libremote sets it from the model the TV reports. Change it here if it guessed wrong.</string>
+    <string name="guide_tv_buttons_caveat">UniRemote sets it from the model the TV reports. Change it here if it guessed wrong.</string>
     <string name="guide_about_tv_does">What this TV reports about itself: model, Android version, remote service and the features it offers.</string>
-    <string name="guide_pad">Full, D-pad and Touchpad</string>
+    <string name="guide_pad">Full, D-pad, Touchpad and Simple</string>
     <string name="guide_full_does">Everything at once: a smaller D-pad, a swipe strip, and a row of extra keys.</string>
     <string name="guide_dpad_does">The arrows move around the TV\'s screen and the centre selects. Hold the centre for an item\'s options, or an arrow to scroll fast.</string>
     <string name="guide_touchpad_does">Swipe to move, tap to select, hold for options. Choose Full, D-pad or Touchpad above the pad.</string>
+    <string name="guide_simple_does">A clean, distraction-free remote with only navigation, volume, back, home, search and keyboard.</string>
     <string name="guide_strip_does">In Full, under the D-pad: swipe to move a step at a time, or quickly to go further. Tap for OK, hold for options.</string>
     <string name="guide_volume">Left: volume</string>
     <string name="guide_volume_up_does">Turns the volume up. Hold to keep going.</string>
@@ -380,7 +398,7 @@
     <string name="guide_volume_down_does">Turns the volume down. Hold to keep going.</string>
     <string name="guide_volume_caveat">Also reaches a sound system connected over HDMI-CEC. Your phone\'s volume buttons do the same while the remote is open.</string>
     <string name="guide_right">Right: channels, or Search and Apps</string>
-    <string name="guide_right_note">TVs get Channel +, Menu and Channel −. Streaming boxes, such as the NVIDIA Shield, a Chromecast or the Google TV Streamer, get Search, Menu and Apps. Libremote tells them apart by the model the TV reports; Channel buttons in the TV menu changes it.</string>
+    <string name="guide_right_note">TVs get Channel +, Menu and Channel −. Streaming boxes, such as the NVIDIA Shield, a Chromecast or the Google TV Streamer, get Search, Menu and Apps. UniRemote tells them apart by the model the TV reports; Channel buttons in the TV menu changes it.</string>
     <string name="guide_channel_up_does">Next channel. Hold to keep going.</string>
     <string name="guide_channel_down_does">Previous channel. Hold to keep going.</string>
     <string name="guide_channel_caveat">In live-TV apps.</string>
@@ -417,7 +435,7 @@
     <string name="guide_shortcuts">App shortcuts</string>
     <string name="guide_shortcut">An app</string>
     <string name="guide_shortcut_does">Opens the app on the TV. Hold it to pin, rename or hide it. Settings › Shortcuts sets their order and look.</string>
-    <string name="guide_shortcut_caveat">On a TV without the Play Store, most apps open only through Libremote Receiver on the TV. The row is hidden on TVs that can\'t open apps.</string>
+    <string name="guide_shortcut_caveat">On a TV without the Play Store, most apps open only through UniRemote Receiver on the TV. The row is hidden on TVs that can\'t open apps.</string>
     <string name="guide_shortcut_add_does">Adds an app: one you hid, one from the TV\'s list, a popular one, or any app by its package name.</string>
 
     <!-- Updates (standard build only, for copies no app store updates: Updater) and Report a problem (both builds) -->
@@ -427,60 +445,60 @@
     <string name="settings_check_auto">Check for updates automatically</string>
     <string name="settings_check_auto_summary">Once a day, when the remote opens. Connects to github.com; nothing installs without your confirmation.</string>
     <string name="settings_check_now">Check for updates</string>
-    <string name="settings_check_now_summary">Libremote %1$s</string>
-    <string name="settings_check_now_checked">Libremote %1$s · checked %2$s</string>
-    <string name="settings_check_now_just">Libremote %1$s · checked just now</string>
+    <string name="settings_check_now_summary">UniRemote %1$s</string>
+    <string name="settings_check_now_checked">UniRemote %1$s · checked %2$s</string>
+    <string name="settings_check_now_just">UniRemote %1$s · checked just now</string>
     <string name="settings_checking">Checking…</string>
-    <string name="settings_update_receiver">Update Libremote Receiver on %1$s</string>
+    <string name="settings_update_receiver">Update UniRemote Receiver on %1$s</string>
     <string name="settings_update_receiver_summary">%1$s → %2$s</string>
-    <string name="settings_privacy_updates">If you check for updates, Libremote also connects to github.com, which sees your IP address.</string>
+    <string name="settings_privacy_updates">If you check for updates, UniRemote also connects to github.com, which sees your IP address.</string>
 
-    <!-- Libremote's own update -->
-    <string name="update_none">Libremote %1$s is the latest version.</string>
+    <!-- UniRemote's own update -->
+    <string name="update_none">UniRemote %1$s is the latest version.</string>
     <string name="update_check_failed">Couldn\'t check for updates: %1$s</string>
-    <string name="update_available">Libremote %1$s is available</string>
-    <string name="update_details">Downloads %1$s from Libremote\'s GitHub releases. Android asks you to confirm, then Libremote closes to update.</string>
-    <string name="update_receiver_too">Libremote Receiver %1$s is out too. Afterwards, update it on the TV from the TV menu, under the TV\'s name.</string>
+    <string name="update_available">UniRemote %1$s is available</string>
+    <string name="update_details">Downloads %1$s from UniRemote\'s GitHub releases. Android asks you to confirm, then UniRemote closes to update.</string>
+    <string name="update_receiver_too">UniRemote Receiver %1$s is out too. Afterwards, update it on the TV from the TV menu, under the TV\'s name.</string>
     <string name="update_install">Update</string>
     <string name="update_later">Not now</string>
     <string name="update_skip">Skip this version</string>
-    <string name="update_downloading">Downloading Libremote %1$s</string>
+    <string name="update_downloading">Downloading UniRemote %1$s</string>
     <string name="update_failed">Update failed. %1$s</string>
     <string name="update_corrupt">The download is incomplete or damaged.</string>
     <string name="update_wrong_app">The download isn\'t the app it should be.</string>
     <string name="update_not_newer">The download isn\'t newer than what is installed.</string>
-    <string name="update_not_signed">The download isn\'t signed with Libremote\'s release key.</string>
+    <string name="update_not_signed">The download isn\'t signed with UniRemote\'s release key.</string>
     <string name="update_channel">Updates</string>
-    <string name="update_done_title">Libremote is updated to %1$s</string>
+    <string name="update_done_title">UniRemote is updated to %1$s</string>
     <string name="update_done_text">Tap to open it again.</string>
-    <string name="update_announce_receiver">Libremote Receiver %1$s is out for %2$s. Tap the TV\'s name to update it.</string>
+    <string name="update_announce_receiver">UniRemote Receiver %1$s is out for %2$s. Tap the TV\'s name to update it.</string>
 
-    <!-- Libremote Receiver's update, sent from the phone to the TV -->
-    <string name="receiver_update_note">Update Libremote Receiver</string>
+    <!-- UniRemote Receiver's update, sent from the phone to the TV -->
+    <string name="receiver_update_note">Update UniRemote Receiver</string>
     <string name="receiver_update_note_summary">Version %1$s is ready for this TV</string>
     <string name="receiver_update_dismiss">Hide until the next version</string>
     <string name="about_receiver_version">Installed, version %1$s</string>
     <string name="about_receiver_update">Update to %1$s</string>
-    <string name="receiver_update_title">Update Libremote Receiver on %1$s?</string>
+    <string name="receiver_update_title">Update UniRemote Receiver on %1$s?</string>
     <string name="receiver_update_versions">Version %2$s replaces %1$s on the TV.</string>
-    <string name="receiver_update_how">Libremote downloads it (%1$s) from its GitHub releases, checks it, and sends it to the TV over its encrypted connection. Then confirm the update on the TV.</string>
-    <string name="receiver_updating">Updating Libremote Receiver</string>
+    <string name="receiver_update_how">UniRemote downloads it (%1$s) from its GitHub releases, checks it, and sends it to the TV over its encrypted connection. Then confirm the update on the TV.</string>
+    <string name="receiver_updating">Updating UniRemote Receiver</string>
     <string name="receiver_update_step_download">Downloading version %1$s…</string>
-    <string name="receiver_update_step_open">Opening Libremote Receiver on %1$s…</string>
+    <string name="receiver_update_step_open">Opening UniRemote Receiver on %1$s…</string>
     <string name="receiver_update_step_send">Sending it to %1$s…</string>
-    <string name="receiver_update_confirm">On %1$s, select Update in the installer (the first time, allow Libremote Receiver to install apps). It closes while it updates; open it again afterwards.</string>
+    <string name="receiver_update_confirm">On %1$s, select Update in the installer (the first time, allow UniRemote Receiver to install apps). It closes while it updates; open it again afterwards.</string>
     <string name="receiver_update_waiting">Waiting for the TV…</string>
-    <string name="receiver_update_done_title">Libremote Receiver is up to date</string>
-    <string name="receiver_update_done_text">%1$s has Libremote Receiver %2$s.</string>
+    <string name="receiver_update_done_title">UniRemote Receiver is up to date</string>
+    <string name="receiver_update_done_text">%1$s has UniRemote Receiver %2$s.</string>
     <string name="receiver_update_waited_title">Finish on the TV</string>
-    <string name="receiver_update_waited_text">If the installer is still open on %1$s, select Update there. Libremote sees the new version the next time it connects to Libremote Receiver.</string>
-    <string name="receiver_update_failed">Couldn\'t update Libremote Receiver</string>
-    <string name="receiver_update_missing">Libremote Receiver isn\'t on %1$s.</string>
-    <string name="receiver_update_no_answer">Libremote Receiver opened on %1$s but didn\'t answer. Try again.</string>
+    <string name="receiver_update_waited_text">If the installer is still open on %1$s, select Update there. UniRemote sees the new version the next time it connects to UniRemote Receiver.</string>
+    <string name="receiver_update_failed">Couldn\'t update UniRemote Receiver</string>
+    <string name="receiver_update_missing">UniRemote Receiver isn\'t on %1$s.</string>
+    <string name="receiver_update_no_answer">UniRemote Receiver opened on %1$s but didn\'t answer. Try again.</string>
 
     <!-- Settings › Report a problem -->
     <string name="settings_report">Report a problem</string>
-    <string name="settings_report_summary">On Libremote\'s GitHub page</string>
+    <string name="settings_report_summary">On UniRemote\'s GitHub page</string>
     <string name="report_title">Report a problem</string>
     <string name="report_text">Open GitHub to describe what happened (it needs a GitHub account). These details help: copy them and paste them in if you like. Nothing is sent from the app.</string>
     <string name="report_copy">Copy details</string>

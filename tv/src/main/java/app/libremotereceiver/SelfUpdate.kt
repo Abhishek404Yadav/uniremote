@@ -5,7 +5,7 @@ import android.content.Context
 import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
 import android.os.Build
-import app.libremotetvservice.protocol.FileReceiver
+import com.uniremote.protocol.FileReceiver
 import java.io.File
 import java.io.FileOutputStream
 import java.io.IOException
