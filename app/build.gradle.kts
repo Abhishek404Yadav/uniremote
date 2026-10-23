@@ -1,83 +1,110 @@
+import java.util.Properties
+
 plugins {
     id("com.android.application")
-    id("org.jetbrains.kotlin.android")
 }
 
+/**
+ * Release signing details, from keystore.properties at the repository root (never committed) or, for CI, from
+ * LIBREMOTE_KEYSTORE_FILE / LIBREMOTE_KEYSTORE_PASSWORD / LIBREMOTE_KEY_ALIAS / LIBREMOTE_KEY_PASSWORD. Without them, release
+ * builds fall back to the debug key so they still install for testing.
+ */
+val releaseKey: Map<String, String?> = run {
+    val props = Properties()
+    rootProject.file("keystore.properties").takeIf { it.isFile }?.inputStream()?.use { props.load(it) }
+    fun value(key: String, env: String) = props.getProperty(key) ?: System.getenv(env)
+    mapOf(
+        "storeFile" to value("storeFile", "LIBREMOTE_KEYSTORE_FILE"),
+        "storePassword" to value("storePassword", "LIBREMOTE_KEYSTORE_PASSWORD"),
+        "keyAlias" to value("keyAlias", "LIBREMOTE_KEY_ALIAS"),
+        "keyPassword" to value("keyPassword", "LIBREMOTE_KEY_PASSWORD"),
+    )
+}
+val hasReleaseKey = releaseKey.values.all { !it.isNullOrBlank() }
+if (!hasReleaseKey) logger.lifecycle("Libremote: no release key configured; release builds are signed with the debug key.")
+
+/** Libremote's GitHub repository: its releases (updates) and its issues (Settings › Report a problem). */
+val repository = "sonalder-darlene/libremote-android-tv"
+/** Where the standard build looks for updates; -Plibremote.updateUrl=… points a test build (or a fork) elsewhere. */
+val updateUrl: String = providers.gradleProperty("libremote.updateUrl")
+    .getOrElse("https://api.github.com/repos/$repository/releases/latest")
+/**
+ * SHA-256 of the release certificate: only copies signed with it are offered updates, since only they can take one,
+ * and both downloads (Libremote, and Libremote Receiver for the TV) must carry it.
+ */
+val releaseCert: String = providers.gradleProperty("libremote.releaseCert")
+    .getOrElse("37d436a201c759fd35f485daab3bbd3f8d54156fea673a23bbcf72a6f38e6ee4")
+
 android {
-    namespace = "com.sony.braviaremote"
-    compileSdk = 34
+    namespace = "app.libremotetvservice"
+    compileSdk = 36
+    buildToolsVersion = "36.1.0"
 
     defaultConfig {
-        applicationId = "com.sony.braviaremote"
+        applicationId = "app.libremotetvservice"
         minSdk = 26
-        targetSdk = 34
-        versionCode = 1
+        targetSdk = 36
+        // MAJOR * 10000 + MINOR * 100 + PATCH, so 1.2.3 is 10203. Keep both literal for F-Droid.
+        versionCode = 10000
         versionName = "1.0.0"
+        buildConfigField("String", "ISSUES_URL", "\"https://github.com/$repository/issues/new\"")
+        // Plain HTTP stays off, except in a test build pointed at an http:// update server (-Plibremote.updateUrl).
+        manifestPlaceholders["cleartext"] = "false"
+    }
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        vectorDrawables {
-            useSupportLibrary = true
+    buildFeatures {
+        buildConfig = true
+    }
+
+    flavorDimensions += "distribution"
+    productFlavors {
+        // GitHub releases, F-Droid and other app stores all ship this APK. Its update checker is opt-in and stays
+        // hidden when an app store installed Libremote; it also keeps Libremote Receiver on the TV up to date.
+        create("standard") {
+            dimension = "distribution"
+            buildConfigField("String", "UPDATE_URL", "\"$updateUrl\"")
+            buildConfigField("String", "RELEASE_CERT_SHA256", "\"$releaseCert\"")
+            manifestPlaceholders["cleartext"] = updateUrl.startsWith("http://").toString()
+        }
+        // Google Play forbids apps that update themselves, so this build has no updater at all.
+        create("play") {
+            dimension = "distribution"
+        }
+    }
+
+    signingConfigs {
+        if (hasReleaseKey) {
+            create("release") {
+                storeFile = rootProject.file(releaseKey.getValue("storeFile")!!)
+                storePassword = releaseKey["storePassword"]
+                keyAlias = releaseKey["keyAlias"]
+                keyPassword = releaseKey["keyPassword"]
+            }
         }
     }
 
     buildTypes {
         release {
-            isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
-        }
-        debug {
-            applicationIdSuffix = ".debug"
-            isDebuggable = true
+            isMinifyEnabled = true
+            isShrinkResources = true
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            signingConfig = signingConfigs.getByName(if (hasReleaseKey) "release" else "debug")
         }
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
-    kotlinOptions {
-        jvmTarget = "17"
-    }
-    buildFeatures {
-        compose = true
-    }
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.14"
-    }
-    packaging {
-        resources {
-            excludes += "/META-INF/{AL2.0,LGPL2.1}"
-        }
+    dependenciesInfo {
+        // No Google-encrypted dependency metadata blob in the APK.
+        includeInApk = false
+        includeInBundle = false
     }
 }
 
 dependencies {
-    // Core AndroidX
-    implementation("androidx.core:core-ktx:1.13.1")
-    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.0")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0")
-    implementation("androidx.activity:activity-compose:1.9.0")
+    // The TV protocols: plain Kotlin, no Android or protobuf dependencies.
+    implementation(project(":protocol"))
 
-    // Jetpack Compose BOM
-    val composeBom = platform("androidx.compose:compose-bom:2024.05.00")
-    implementation(composeBom)
-    implementation("androidx.compose.ui:ui")
-    implementation("androidx.compose.ui:ui-graphics")
-    implementation("androidx.compose.ui:ui-tooling-preview")
-    implementation("androidx.compose.material3:material3")
-
-    // Networking & Serialization
-    implementation("com.squareup.okhttp3:okhttp:4.12.0")
-    implementation("com.google.code.gson:gson:2.10.1")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
-
-    // Cryptography for Google TV / Android TV Remote Protocol v2
-    implementation("org.bouncycastle:bcprov-jdk18on:1.78.1")
-    implementation("org.bouncycastle:bcpkix-jdk18on:1.78.1")
-
-    // Debugging
-    debugImplementation("androidx.compose.ui:ui-tooling")
-    debugImplementation("androidx.compose.ui:ui-test-manifest")
+    testImplementation("junit:junit:4.13.2")
 }

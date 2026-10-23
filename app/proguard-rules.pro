@@ -1,5 +1,1 @@
-# Add project specific ProGuard rules here.
--keep class com.sony.braviaremote.model.** { *; }
--keepclassmembers class * {
-    @com.google.gson.annotations.SerializedName <fields>;
-}
+# Libremote uses no reflection; R8's defaults are enough.
