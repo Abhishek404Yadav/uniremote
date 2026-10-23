@@ -254,7 +254,7 @@ fun ConnectionDialog(
                     OutlinedTextField(
                         value = pskInput,
                         onValueChange = { pskInput = it.trim() },
-                        label = { Text("Pre-Shared Key / PIN (e.g. 1234)") },
+                        label = { Text("Pre-Shared Key (Optional / Legacy TVs only)") },
                         singleLine = true,
                         modifier = Modifier.fillMaxWidth(),
                         colors = OutlinedTextFieldDefaults.colors(
@@ -286,7 +286,7 @@ fun ConnectionDialog(
                         )
                         Spacer(modifier = Modifier.width(6.dp))
                         Text(
-                            text = if (showInstructions) "Hide TV Settings Guide" else "How to enable IP Control on your Sony TV",
+                            text = if (showInstructions) "Hide Setup Guide" else "How pairing works on your TV",
                             fontSize = 12.sp,
                             fontWeight = FontWeight.SemiBold,
                             color = AccentBlue
@@ -304,29 +304,37 @@ fun ConnectionDialog(
                             verticalArrangement = Arrangement.spacedBy(6.dp)
                         ) {
                             Text(
+                                text = "✨ Google TV Models (e.g. KD-32W830K):",
+                                fontSize = 13.sp,
+                                fontWeight = FontWeight.Bold,
+                                color = AccentBlue
+                            )
+                            Text(
                                 text = "1. Connect Phone & TV to the same Wi-Fi.",
                                 fontSize = 12.sp,
                                 color = TextSecondary
                             )
                             Text(
-                                text = "2. On Sony TV: Press Settings (Gear) -> Network & Internet.",
+                                text = "2. Enter TV IP and tap 'Pair & Connect TV'.",
                                 fontSize = 12.sp,
                                 color = TextSecondary
                             )
                             Text(
-                                text = "3. Go to Home Network / Remote Device -> IP Control.",
+                                text = "3. A 6-character code will appear on your TV screen. Enter it here to pair—just like Google TV remote!",
                                 fontSize = 12.sp,
                                 color = TextSecondary
                             )
+                            Spacer(modifier = Modifier.height(4.dp))
                             Text(
-                                text = "4. Set 'Authentication' to 'Pre-Shared Key (PSK)' and enter '1234'.",
+                                text = "📺 Legacy Sony Bravia Models:",
                                 fontSize = 12.sp,
-                                color = TextSecondary
+                                fontWeight = FontWeight.Bold,
+                                color = TextPrimary
                             )
                             Text(
-                                text = "5. Turn 'Simple IP Control' to ON.",
-                                fontSize = 12.sp,
-                                color = TextSecondary
+                                text = "Settings -> Network -> IP Control -> PSK: 1234, Simple IP Control: ON.",
+                                fontSize = 11.sp,
+                                color = TextMuted
                             )
                         }
                     }
@@ -352,7 +360,7 @@ fun ConnectionDialog(
                             .height(50.dp)
                     ) {
                         Text(
-                            text = "Save & Connect TV",
+                            text = "Pair & Connect TV",
                             fontSize = 15.sp,
                             fontWeight = FontWeight.Bold
                         )

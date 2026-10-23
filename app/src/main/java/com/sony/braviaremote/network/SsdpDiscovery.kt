@@ -187,6 +187,14 @@ class SsdpDiscovery(private val context: Context) {
                 return response.code in 200..499
             }
         } catch (_: Exception) {
+            // Also check port 6467 (Google TV Remote Pairing port)
+            try {
+                Socket().use { socket ->
+                    socket.connect(InetSocketAddress(ip, 6467), 150)
+                    return true
+                }
+            } catch (_: Exception) {}
+
             // Also check port 20060 (Sony Simple IP Control)
             try {
                 Socket().use { socket ->

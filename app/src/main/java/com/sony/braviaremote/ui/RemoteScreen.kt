@@ -42,6 +42,7 @@ import com.sony.braviaremote.model.IrccCommand
 import com.sony.braviaremote.ui.components.ConnectionDialog
 import com.sony.braviaremote.ui.components.DPad
 import com.sony.braviaremote.ui.components.NumberPadSheet
+import com.sony.braviaremote.ui.components.PairingDialog
 import com.sony.braviaremote.ui.components.RemoteButton
 import com.sony.braviaremote.ui.components.RockerButton
 import com.sony.braviaremote.ui.theme.DarkBackground
@@ -68,6 +69,7 @@ fun RemoteScreen(viewModel: MainViewModel) {
     val isConnecting by viewModel.isConnecting.collectAsState()
     val isScanning by viewModel.isScanning.collectAsState()
     val discoveredDevices by viewModel.discoveredDevices.collectAsState()
+    val awaitingPin by viewModel.awaitingPin.collectAsState()
 
     var showConnectionDialog by remember { mutableStateOf(false) }
     var showNumberPad by remember { mutableStateOf(false) }
@@ -399,6 +401,13 @@ fun RemoteScreen(viewModel: MainViewModel) {
             NumberPadSheet(
                 onDismiss = { showNumberPad = false },
                 onSendCommand = { command -> viewModel.sendCommand(command) }
+            )
+        }
+
+        if (awaitingPin) {
+            PairingDialog(
+                onConfirm = { pin -> viewModel.submitPairingCode(pin) },
+                onDismiss = { viewModel.cancelPairing() }
             )
         }
     }

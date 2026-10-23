@@ -31,6 +31,10 @@ class PreferencesManager(context: Context) {
         get() = prefs.getBoolean(KEY_HAPTIC, true)
         set(value) = prefs.edit().putBoolean(KEY_HAPTIC, value).apply()
 
+    var isGoogleTvPaired: Boolean
+        get() = prefs.getBoolean(KEY_GTV_PAIRED, false)
+        set(value) = prefs.edit().putBoolean(KEY_GTV_PAIRED, value).apply()
+
     fun getSavedDevices(): List<TvDevice> {
         val json = prefs.getString(KEY_SAVED_DEVICES, null) ?: return emptyList()
         return try {
@@ -60,5 +64,6 @@ class PreferencesManager(context: Context) {
         private const val KEY_TV_NAME = "key_tv_name"
         private const val KEY_HAPTIC = "key_haptic"
         private const val KEY_SAVED_DEVICES = "key_saved_devices"
+        private const val KEY_GTV_PAIRED = "key_gtv_paired"
     }
 }
